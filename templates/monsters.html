@@ -6,30 +6,37 @@
     <title>Monster Information</title>
     <link rel="stylesheet" href="../static/style/output.css">
 </head>
-<body>
+<body class="p-2 font-mono text-white bg-slate-700">
     <h1>Monster Information</h1>
     <div>
         <h2>{{ monster.name }}</h2>
         <p><strong>Family:</strong> {{ monster.family }}</p>
-        <p><strong>In Story:</strong> {{ monster.in_story }}</p>
-        <p><strong>Stats:</strong></p>
-        <ul>
-            <li><strong>AGL:</strong> {{ monster.agl }}</li>
-            <li><strong>INT:</strong> {{ monster.int }}</li>
-            <li><strong>Max Level:</strong> {{ monster.maxlvl }}</li>
-            <li><strong>ATK:</strong> {{ monster.atk }}</li>
-            <li><strong>MP:</strong> {{ monster.mp }}</li>
-            <li><strong>EXP:</strong> {{ monster.exp }}</li>
-            <li><strong>HP:</strong> {{ monster.hp }}</li>
-            <li><strong>DEF:</strong> {{ monster.def }}</li>
-        </ul>
+        <div class="mt-2 mb-2 stats">
+            <p><strong>Stats:</strong></p>
+            <ul>
+                <div class="grid grid-cols-2 gap-1">
+                    <li><label class="font-bold">Max Level:</label> {{ monster.maxlvl }}</li>
+                    <li><label class="font-bold">EXP:</label> {{ monster.exp }}</li>
+                    <li><label class="font-bold">HP:</label> {{ monster.hp }}</li>
+                    <li><label class="font-bold">ATK:</label> {{ monster.atk }}</li>
+                    <li><label class="font-bold">MP:</label> {{ monster.mp }}</li>
+                    <li><label class="font-bold">DEF:</label> {{ monster.def }}</li>
+                    <li><label class="font-bold">AGL:</label> {{ monster.agl }}</li>
+                    <li><label class="font-bold">INT:</label> {{ monster.int }}</li>       
+                </div>   
+            </ul>
+        </div>
+        
         <p><strong>Skills:</strong></p>
         <ul>
             {% for skill in monster.skills %}
                 <li>{{ skill }}</li>
             {% endfor %}
         </ul>
+        <div class="grid grid-cols-1 gap-1 mt-2">
+        <p><strong>In Story:</strong> {{ monster.in_story }}</p>
         <p><strong>Spawn Locations:</strong></p>
+        </div>
         <ul>
             {% for location in monster.spawn_locations %}
                 <li>{{ location.map }} - {{ location.description }}</li>

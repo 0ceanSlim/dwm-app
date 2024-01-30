@@ -7,24 +7,26 @@
     <link rel="stylesheet" href="../static/style/output.css">
     <script src="{{ url_for('static', filename='js/index.js') }}"></script>
 </head>
-<body>
-    <h1 class="font-bold text-blue-500">Welcome to the Dragon Warrior Monsters 2 App</h1>
+<body class="p-4 m-4 font-mono text-white bg-slate-700">
+    <h1 class="text-2xl font-black text-white">Welcome to the Dragon Warrior Monsters 2 App</h1>
 
     <div>
-        <h2 class="font-bold text-blue-500">Filter list by monster family<br> 
-        Display monster stats in embed below</h2>
-
         <label for="familyDropdown">Select Family:</label>
-        <select id="familyDropdown">
-            <option value="">All Families</option>
+        <select id="familyDropdown" class="p-2 rounded-md bg-slate-800">
+            <option value="" >All Families</option>
         </select>
 
         <label for="monsterDropdown">Select Monster:</label>
-        <select id="monsterDropdown">
+        <select id="monsterDropdown" class="p-2 rounded-md bg-slate-800">
             <option value="">All Monsters</option>
         </select>
 
-        <iframe id="monsterIframe" src="" width="fit" height="fit" frameborder="0"></iframe>
+        <iframe id="monsterIframe" src="" class="w-auto mt-4 ml-4 border-2 border-teal-500 rounded-md" onload="resizeIframe(this)"></iframe>
     </div>
+    <script>
+        function resizeIframe(iframe) {
+            iframe.style.height = iframe.contentWindow.document.body.scrollHeight+ 16 +'px';
+        }
+    </script>
 </body>
 </html>
