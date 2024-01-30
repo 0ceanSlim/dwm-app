@@ -91,5 +91,35 @@ def monster_info(monster_name):
         'spawn_locations': spawn_locations
     })
     
+# Add a route for the breeding page
+@app.route('/breeding')
+def breeding():
+    # Pass any necessary data to the breeding template (e.g., breeding_data)
+    return render_template('breeding.html')
+
+# Add this function to handle breeding logic
+def breed_monsters(parent1, parent2):
+    # Implement your breeding logic here
+    # For now, let's assume the result is a string
+    result = f"{parent1} x {parent2} => Offspring Monster"
+    return result
+
+# Add this route for breeding
+@app.route('/breed', methods=['GET'])
+def breed():
+    # Get parent monsters from query parameters
+    parent1 = request.args.get('parent1')
+    parent2 = request.args.get('parent2')
+
+    # Validate input (you may want to add more validation)
+    if not parent1 or not parent2:
+        return jsonify({'error': 'Invalid input'})
+
+    # Call the breeding function
+    result = breed_monsters(parent1, parent2)
+
+    # Return the breeding result as JSON
+    return jsonify({'result': result})
+    
 if __name__ == '__main__':
     app.run(debug=True)
