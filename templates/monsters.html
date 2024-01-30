@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Information</title>
+    <link rel="stylesheet" href="../static/style/output.css">
+</head>
+<body>
+    <h1>Monster Information</h1>
+    <div>
+        <h2>{{ monster.name }}</h2>
+        <p><strong>Family:</strong> {{ monster.family }}</p>
+        <p><strong>In Story:</strong> {{ monster.in_story }}</p>
+        <p><strong>Stats:</strong></p>
+        <ul>
+            <li><strong>AGL:</strong> {{ monster.agl }}</li>
+            <li><strong>INT:</strong> {{ monster.int }}</li>
+            <li><strong>Max Level:</strong> {{ monster.maxlvl }}</li>
+            <li><strong>ATK:</strong> {{ monster.atk }}</li>
+            <li><strong>MP:</strong> {{ monster.mp }}</li>
+            <li><strong>EXP:</strong> {{ monster.exp }}</li>
+            <li><strong>HP:</strong> {{ monster.hp }}</li>
+            <li><strong>DEF:</strong> {{ monster.def }}</li>
+        </ul>
+        <p><strong>Skills:</strong></p>
+        <ul>
+            {% for skill in monster.skills %}
+                <li>{{ skill }}</li>
+            {% endfor %}
+        </ul>
+        <p><strong>Spawn Locations:</strong></p>
+        <ul>
+            {% for location in monster.spawn_locations %}
+                <li>{{ location.map }} - {{ location.description }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

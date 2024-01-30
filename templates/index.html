@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DWM APP</title>
+    <link rel="stylesheet" href="../static/style/output.css">
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</head>
+<body>
+    <h1 class="font-bold text-blue-500">Welcome to the Dragon Warrior Monsters 2 App</h1>
+
+    <div>
+        <h2 class="font-bold text-blue-500">Filter list by monster family<br> 
+        Display monster stats in embed below</h2>
+
+        <label for="familyDropdown">Select Family:</label>
+        <select id="familyDropdown">
+            <option value="">All Families</option>
+        </select>
+
+        <label for="monsterDropdown">Select Monster:</label>
+        <select id="monsterDropdown">
+            <option value="">All Monsters</option>
+        </select>
+
+        <iframe id="monsterIframe" src="" width="fit" height="fit" frameborder="0"></iframe>
+    </div>
+</body>
+</html>
