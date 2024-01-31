@@ -26,22 +26,17 @@
         <iframe
           id="monsterIframe"
           src=""
-          class="w-auto mt-4 ml-4 border-2 border-teal-500 rounded-md"
+          class="w-auto h-max mt-4 ml-4 border-2 border-teal-500 rounded-md"
           onload="resizeIframe(this)"
         ></iframe>
 
         <iframe
           id="breedingIframe"
-          class="w-auto mt-4 ml-4 h-auto border-2 border-teal-500 rounded-md"
+          src=""
+          class="w-auto mt-4 ml-4 p-2 border-2 border-teal-500 rounded-md"
           onload="resizeIframe(this)"
         ></iframe>
       </div>
     </div>
-    <script>
-      function resizeIframe(iframe) {
-        iframe.style.height =
-          iframe.contentWindow.document.body.scrollHeight + 4 + "px";
-      }
-    </script>
   </body>
 </html>

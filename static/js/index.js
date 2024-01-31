@@ -70,4 +70,34 @@ document.addEventListener("DOMContentLoaded", function () {
 
         breedingIframe.src = breedingIframeSrc;
     }
+
+//I was trying to get rid of the scroll bars but h-auto/fit wasn't working
+// This works to resize but still leaves some scrollbar
+//to-do:fix
+
+    // Function to resize iframe
+    //function resizeIframe(iframe) {
+    //    const body = iframe.contentDocument.body;
+    //    const html = iframe.contentDocument.documentElement;
+    //
+    //    const height = Math.max(
+    //        body.scrollHeight,
+    //        body.offsetHeight,
+    //        html.clientHeight,
+    //        html.scrollHeight,
+    //        html.offsetHeight
+    //    );
+    //
+    //    iframe.style.height = height + "px";
+    //}
+    
+
+    // Add event listeners for iframe load
+    monsterIframe.addEventListener("load", function () {
+        resizeIframe(monsterIframe);
+    });
+
+    breedingIframe.addEventListener("load", function () {
+        resizeIframe(breedingIframe);
+    });
 });
