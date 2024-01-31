@@ -26,17 +26,17 @@
         <iframe
           id="monsterIframe"
           src=""
-          class="w-auto h-max mt-4 ml-4 border-2 border-teal-500 rounded-md"
-          onload="resizeIframe(this)"
+          class="w-auto mt-4 ml-4 border-2 border-teal-500 rounded-md h-96"
         ></iframe>
 
         <iframe
           id="breedingIframe"
           src=""
-          class="w-auto mt-4 ml-4 p-2 border-2 border-teal-500 rounded-md"
-          onload="resizeIframe(this)"
+          class="w-auto p-2 mt-4 ml-4 border-2 border-teal-500 rounded-md"
         ></iframe>
       </div>
     </div>
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/breeding.js') }}"></script>
   </body>
 </html>

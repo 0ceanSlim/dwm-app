@@ -112,6 +112,63 @@ def monster_info(monster_name):
         },
     )
 
+@app.route("/monster_info_json/<monster_name>")
+def monster_info_json(monster_name):
+    cursor = g.db.cursor()
+
+    # Retrieve monster information from the database based on name
+    cursor.execute(
+        """
+        SELECT
+            monsters.id, monsters.name, families.name AS family, monsters.in_story,
+            monsters.agl, monsters.int, monsters.maxlvl, monsters.atk, monsters.mp,
+            monsters.exp, monsters.hp, monsters.def
+        FROM
+            monsters
+        JOIN families ON monsters.family_id = families.id
+        WHERE
+            monsters.name = ?
+    """,
+        (monster_name,),
+    )
+
+    monster_info = cursor.fetchone()
+
+    if monster_info is None:
+        abort(404)
+
+    # Retrieve skills for the monster
+    cursor.execute("SELECT skill FROM skills WHERE monster_id = ?", (monster_info[0],))
+    skills = [row[0] for row in cursor.fetchall()]
+
+    # Retrieve spawn locations for the monster
+    cursor.execute(
+        "SELECT map, description FROM spawn_locations WHERE monster_id = ?",
+        (monster_info[0],),
+    )
+    spawn_locations = [
+        {"map": row[0], "description": row[1]} for row in cursor.fetchall()
+    ]
+
+    return jsonify(
+        monster={
+            "id": monster_info[0],
+            "name": monster_info[1],
+            "family": monster_info[2],
+            "in_story": "Yes" if monster_info[3] else "No",
+            "agl": monster_info[4],
+            "int": monster_info[5],
+            "maxlvl": monster_info[6],
+            "atk": monster_info[7],
+            "mp": monster_info[8],
+            "exp": monster_info[9],
+            "hp": monster_info[10],
+            "def": monster_info[11],
+            "skills": skills,
+            "spawn_locations": spawn_locations,
+        }
+    )
+
 
 # Update the breeding route
 @app.route("/breeding")
