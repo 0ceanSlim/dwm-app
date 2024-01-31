@@ -1,13 +1,12 @@
-// static/js/app.js
-
 document.addEventListener("DOMContentLoaded", function () {
     const familyDropdown = document.getElementById("familyDropdown");
     const monsterDropdown = document.getElementById("monsterDropdown");
-    const iframe = document.getElementById("monsterIframe");
+    const monsterIframe = document.getElementById("monsterIframe");
+    const breedingIframe = document.getElementById("breedingIframe");
 
-    // Initialize dropdowns and iframe
+    // Initialize dropdowns and iframes
     updateMonstersDropdown();
-    updateIframe();
+    updateIframes();
 
     // Fetch families data from the server
     fetch("/get_families")
@@ -15,17 +14,17 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(data => {
             populateDropdown(familyDropdown, data);
             updateMonstersDropdown();
-            updateIframe();
+            updateIframes();
         })
         .catch(error => console.error("Error fetching families:", error));
 
     familyDropdown.addEventListener("change", function () {
         updateMonstersDropdown();
-        updateIframe();
+        updateIframes();
     });
 
     monsterDropdown.addEventListener("change", function () {
-        updateIframe();
+        updateIframes();
     });
 
     function populateDropdown(dropdown, data) {
@@ -51,17 +50,24 @@ document.addEventListener("DOMContentLoaded", function () {
             .catch(error => console.error("Error fetching monsters:", error));
     }
 
-    function updateIframe() {
+    function updateIframes() {
         const selectedFamily = familyDropdown.value;
         const selectedMonster = monsterDropdown.value;
 
-        // Update iframe src based on selected family and monster
-        const iframeSrc = selectedMonster
+        // Update monsterIframe src based on selected family and monster
+        const monsterIframeSrc = selectedMonster
             ? `/monster/${selectedMonster}`
             : selectedFamily
             ? `/monster/${selectedFamily}`
             : "about:blank";
 
-        iframe.src = iframeSrc;
+        monsterIframe.src = monsterIframeSrc;
+
+        // Update breedingIframe src based on the selected monster
+        const breedingIframeSrc = selectedMonster
+            ? `/get_breeding_combinations?monster=${selectedMonster}`
+            : "about:blank";
+
+        breedingIframe.src = breedingIframeSrc;
     }
 });

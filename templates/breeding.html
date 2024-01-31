@@ -1,0 +1,40 @@
+<!-- breeding.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breeding Combinations</title>
+    <link rel="stylesheet" href="../static/style/output.css" />
+  </head>
+  <body class="bg-slate-700">
+    <h1 class="font-bold text-blue-500">Breeding Combinations</h1>
+
+    <div id="breedingCombinations">
+      {% if selected_monster %}
+      <h2 class="font-bold text-blue-500 mt-4">
+        Breeding Combinations for {{ selected_monster.name }}
+      </h2>
+      <div class="grid grid-cols-2 gap-1">
+        <div class="col-span-1">
+          <h3 class="font-bold text-blue-500">Base Combinations</h3>
+          <ul>
+            {% for combination in selected_monster.base_combinations %}
+            <li>{{ combination.target }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-span-1">
+          <h3 class="font-bold text-blue-500">Mate Combinations</h3>
+          <ul>
+            {% for combination in selected_monster.mate_combinations %}
+            <li>{{ combination.target }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </body>
+</html>

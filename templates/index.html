@@ -1,32 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DWM APP</title>
-    <link rel="stylesheet" href="../static/style/output.css">
+    <link rel="stylesheet" href="../static/style/output.css" />
     <script src="{{ url_for('static', filename='js/index.js') }}"></script>
-</head>
-<body class="p-4 m-4 font-mono text-white bg-slate-700">
-    <h1 class="text-2xl font-black text-white">Welcome to the Dragon Warrior Monsters 2 App</h1>
+  </head>
+  <body class="p-4 m-4 font-mono text-white bg-slate-700">
+    <h1 class="text-2xl font-black text-white">
+      Welcome to the Dragon Warrior Monsters 2 App
+    </h1>
 
     <div>
-        <label for="familyDropdown">Select Family:</label>
-        <select id="familyDropdown" class="p-2 rounded-md bg-slate-800">
-            <option value="" >All Families</option>
-        </select>
+      <label for="familyDropdown">Select Family:</label>
+      <select id="familyDropdown" class="p-2 rounded-md bg-slate-800">
+        <option value="">All Families</option>
+      </select>
 
-        <label for="monsterDropdown">Select Monster:</label>
-        <select id="monsterDropdown" class="p-2 rounded-md bg-slate-800">
-            <option value="">All Monsters</option>
-        </select>
+      <label for="monsterDropdown">Select Monster:</label>
+      <select id="monsterDropdown" class="p-2 rounded-md bg-slate-800">
+        <option value="">All Monsters</option>
+      </select>
+      <div id="modules" class="flex">
+        <iframe
+          id="monsterIframe"
+          src=""
+          class="w-auto mt-4 ml-4 border-2 border-teal-500 rounded-md"
+          onload="resizeIframe(this)"
+        ></iframe>
 
-        <iframe id="monsterIframe" src="" class="w-auto mt-4 ml-4 border-2 border-teal-500 rounded-md" onload="resizeIframe(this)"></iframe>
+        <iframe
+          id="breedingIframe"
+          class="w-auto mt-4 ml-4 h-auto border-2 border-teal-500 rounded-md"
+          onload="resizeIframe(this)"
+        ></iframe>
+      </div>
     </div>
     <script>
-        function resizeIframe(iframe) {
-            iframe.style.height = iframe.contentWindow.document.body.scrollHeight+ 16 +'px';
-        }
+      function resizeIframe(iframe) {
+        iframe.style.height =
+          iframe.contentWindow.document.body.scrollHeight + 4 + "px";
+      }
     </script>
-</body>
+  </body>
 </html>

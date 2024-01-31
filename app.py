@@ -113,5 +113,74 @@ def monster_info(monster_name):
     )
 
 
+# Update the breeding route
+@app.route("/breeding")
+def breeding():
+    # Get all monsters for dropdown
+    cursor = g.db.cursor()
+    cursor.execute("SELECT DISTINCT name FROM monsters")
+    monsters = [row[0] for row in cursor.fetchall()]
+
+    # Pass the monsters to the breeding template
+    return render_template("breeding.html", monsters=monsters)
+
+
+# Add this route for fetching breeding combinations
+@app.route("/get_breeding_combinations")
+def get_breeding_combinations():
+    selected_monster = request.args.get("monster")
+    if not selected_monster:
+        return jsonify({"error": "Invalid input"})
+
+    base_combinations = get_base_combinations(selected_monster)
+    mate_combinations = get_mate_combinations(selected_monster)
+
+    return jsonify(
+        {"base_combinations": base_combinations, "mate_combinations": mate_combinations}
+    )
+
+
+# Function to get base breeding combinations
+def get_base_combinations(selected_monster):
+    cursor = g.db.cursor()
+
+    # Fetch breed IDs based on the selected monster as a base
+    cursor.execute(
+        """
+        SELECT breeds.target
+        FROM breeds
+        JOIN breed_requirements ON breeds.id = breed_requirements.breed_id
+        WHERE breed_requirements.requirement_type = 'base'
+        AND breed_requirements.requirement_value = ?
+    """,
+        (selected_monster,),
+    )
+
+    base_combinations = cursor.fetchall()
+
+    return [row[0] for row in base_combinations]
+
+
+# Function to get mate breeding combinations
+def get_mate_combinations(selected_monster):
+    cursor = g.db.cursor()
+
+    # Fetch breed IDs based on the selected monster as a mate
+    cursor.execute(
+        """
+        SELECT breeds.target
+        FROM breeds
+        JOIN breed_requirements ON breeds.id = breed_requirements.breed_id
+        WHERE breed_requirements.requirement_type = 'mate'
+        AND breed_requirements.requirement_value = ?
+    """,
+        (selected_monster,),
+    )
+
+    mate_combinations = cursor.fetchall()
+
+    return [row[0] for row in mate_combinations]
+
+
 if __name__ == "__main__":
     app.run(debug=True)
