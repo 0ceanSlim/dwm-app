@@ -12,15 +12,15 @@
 <body class="font-mono text-white bg-slate-700">
     <div id="breedingCombinations">
         {% if selected_monster %}
-            <h2 class="mt-4 text-xl font-bold">
-                Possible Breeding Pairs for {{ selected_monster.name }}
+            <h2 class="text-xl font-bold text-center">
+                Breeding Pairs
             </h2>
             <div class="grid grid-cols-2 gap-1">
                 <div class="col-span-1">
                     <h3 class="text-lg font-bold">Base</h3>
                     <ul>
                         {% for combination in selected_monster.base_combinations %}
-                            <li class="cursor-pointer hover:text-red-700 w-fit">
+                            <li class="text-center cursor-pointer hover:text-red-700 w-fit">
                                 <!-- Add a class to make the monster name clickable -->
                                 <span class="monster-name" data-name="{{ combination }}">{{ combination }}</span>
                             </li>

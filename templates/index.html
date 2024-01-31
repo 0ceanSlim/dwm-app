@@ -22,18 +22,22 @@
       <select id="monsterDropdown" class="p-2 rounded-md bg-slate-800">
         <option value="">All Monsters</option>
       </select>
-      <div id="modules" class="flex">
+      <div id="modules" class="flex mt-4">
         <iframe
           id="monsterIframe"
           src=""
-          class="w-auto mt-4 ml-4 border-2 border-teal-500 rounded-md h-96"
+          class="pl-2 pr-2 ml-4 border-2 border-teal-500 rounded-md"
+          height="456"
+          width="272"
         ></iframe>
 
         <iframe
           id="breedingIframe"
           src=""
-          class="w-auto p-2 mt-4 ml-4 border-2 border-teal-500 rounded-md"
-        ></iframe>
+          class="p-2 ml-4 border-2 border-teal-500 rounded-md"
+          height="200"
+          width="272">
+        </iframe>
       </div>
     </div>
     <script src="{{ url_for('static', filename='js/index.js') }}"></script>
