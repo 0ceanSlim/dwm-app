@@ -21,7 +21,7 @@
           <h3 class="font-bold text-blue-500">Base Combinations</h3>
           <ul>
             {% for combination in selected_monster.base_combinations %}
-            <li>{{ combination.target }}</li>
+            <li>{{ combination }}</li>
             {% endfor %}
           </ul>
         </div>
@@ -29,7 +29,7 @@
           <h3 class="font-bold text-blue-500">Mate Combinations</h3>
           <ul>
             {% for combination in selected_monster.mate_combinations %}
-            <li>{{ combination.target }}</li>
+            <li>{{ combination }}</li>
             {% endfor %}
           </ul>
         </div>

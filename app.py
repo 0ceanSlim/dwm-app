@@ -132,54 +132,72 @@ def get_breeding_combinations():
     if not selected_monster:
         return jsonify({"error": "Invalid input"})
 
-    base_combinations = get_base_combinations(selected_monster)
-    mate_combinations = get_mate_combinations(selected_monster)
+    # Fetch breed ID based on the selected monster as a target
+    breed_id = get_breed_id(selected_monster)
 
-    return jsonify(
-        {"base_combinations": base_combinations, "mate_combinations": mate_combinations}
+    if breed_id is None:
+        return jsonify({"error": f"No breed information found for {selected_monster}"})
+
+    base_combinations, mate_combinations = get_breeding_info(breed_id)
+
+    return render_template(
+        "breeding.html",
+        selected_monster={
+            "name": selected_monster,
+            "base_combinations": base_combinations,
+            "mate_combinations": mate_combinations,
+        },
     )
 
 
-# Function to get base breeding combinations
-def get_base_combinations(selected_monster):
+def get_breed_id(target_monster):
     cursor = g.db.cursor()
 
-    # Fetch breed IDs based on the selected monster as a base
+    # Fetch breed ID based on the selected monster as a target
     cursor.execute(
         """
-        SELECT breeds.target
+        SELECT breeds.id
         FROM breeds
-        JOIN breed_requirements ON breeds.id = breed_requirements.breed_id
-        WHERE breed_requirements.requirement_type = 'base'
-        AND breed_requirements.requirement_value = ?
-    """,
-        (selected_monster,),
+        WHERE breeds.target = ?
+        """,
+        (target_monster,),
     )
 
-    base_combinations = cursor.fetchall()
+    breed_id = cursor.fetchone()
 
-    return [row[0] for row in base_combinations]
+    if breed_id:
+        return breed_id[0]
+    else:
+        return None
 
 
-# Function to get mate breeding combinations
-def get_mate_combinations(selected_monster):
+def get_breeding_info(breed_id):
     cursor = g.db.cursor()
 
-    # Fetch breed IDs based on the selected monster as a mate
+    # Fetch base and mate breeding combinations based on the breed ID
     cursor.execute(
         """
-        SELECT breeds.target
-        FROM breeds
-        JOIN breed_requirements ON breeds.id = breed_requirements.breed_id
-        WHERE breed_requirements.requirement_type = 'mate'
-        AND breed_requirements.requirement_value = ?
-    """,
-        (selected_monster,),
+        SELECT requirement_type, requirement_value
+        FROM breed_requirements
+        WHERE breed_id = ?
+        """,
+        (breed_id,),
     )
 
-    mate_combinations = cursor.fetchall()
+    breeding_info = cursor.fetchall()
 
-    return [row[0] for row in mate_combinations]
+    base_combinations = [
+        value
+        for (requirement_type, value) in breeding_info
+        if requirement_type == "base"
+    ]
+    mate_combinations = [
+        value
+        for (requirement_type, value) in breeding_info
+        if requirement_type == "mate"
+    ]
+
+    return base_combinations, mate_combinations
 
 
 if __name__ == "__main__":
