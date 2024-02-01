@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DWM APP</title>
     <link rel="stylesheet" href="../static/style/output.css" />
-    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
   </head>
-  <body class="p-4 m-4 font-mono text-white bg-slate-700">
+  <body class="content-center p-4 m-4 font-mono text-white bg-slate-700" >
     <h1 class="text-2xl font-black text-white">
       Welcome to the Dragon Warrior Monsters 2 App
     </h1>
@@ -18,7 +17,7 @@
       </select>
 
       <label for="monsterDropdown">Select Monster:</label>
-      <select id="monsterDropdown" class="p-2 rounded-md bg-slate-800">
+      <select id="monsterDropdown" class="p-2 rounded-md bg-slate-800" onchange="updateMonsterSprite()">
         <option value="">All Monsters</option>
       </select>
       <div id="modules" class="flex mt-4">
@@ -27,31 +26,35 @@
           src=""
           class="pl-2 pr-2 ml-4 border-2 border-teal-500 rounded-md"
           height="456"
-          width="272"
-        ></iframe>
-
-        <iframe
-          id="breedingIframe"
-          src=""
-          class="p-2 ml-4 border-2 border-teal-500 rounded-md"
-          height="200"
-          width="272"
-        >
+          width="272">
         </iframe>
-
-        
+        <div class="grid items-center justify-center grid-cols-1 ml-4">
+            <iframe
+              id="monsterSpriteIframe"
+              src=""
+              class="p-2 ml-8 border-2 border-teal-500 rounded-md"
+              height="200"
+              width="200">
+            </iframe>
+            <iframe
+              id="breedingIframe"
+              src=""
+              class="p-2 mt-4 border-2 border-teal-500 rounded-md"
+              height="200"
+              width="272">
+            </iframe>
+        </div>
       </div>
-
-      <iframe
-          id="footerIframe"
-          src="https://dwm.happytavern.co/footer"
-          class="p-2 mt-4 ml-4 border-2 border-teal-500 rounded-md float-end"
-          height="240"
-          width="800"
-        >
-        </iframe>
+          <iframe
+              id="footerIframe"
+              src="https://dwm.happytavern.co/footer"
+              class="p-2 mt-4 ml-4 border-2 border-teal-500 rounded-md float-end"
+              height="240"
+              width="800">
+            </iframe>
     </div>
     <script src="{{ url_for('static', filename='js/index.js') }}"></script>
     <script src="{{ url_for('static', filename='js/breeding.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/sprite.js') }}"></script>
   </body>
 </html>
