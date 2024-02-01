@@ -4,6 +4,8 @@
 
 This Flask app is designed to use data from Dragon Warrior Monsters 2 to create an intuitive web UI. The app allows users to lookup monster information, and eventually breeding pairs and skills. Inspired by the [dwm2-tools](https://github.com/MetroWind/dwm2-tools) project.
 
+### You can try the current release [here](https://dwm.happytavern.co) !
+
 <img src=https://git.happytavern.co/OceanSlim/dwm-app/raw/branch/main/static/img/appScreen.png style="border-radius: 10px; width: 400px;">
 
 ## Features

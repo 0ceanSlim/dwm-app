@@ -256,6 +256,9 @@ def get_breeding_info(breed_id):
 
     return base_combinations, mate_combinations
 
+@app.route("/footer")
+def show_footer():
+    return render_template("footer.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
