@@ -41,33 +41,6 @@ function updateMonstersDropdown(familyDropdown) {
     }
 }
 
-function updateIframes(familyDropdown, monsterDropdown) {
-    // Check if both familyDropdown and monsterDropdown exist
-    if (familyDropdown && monsterDropdown) {
-        const selectedFamily = familyDropdown.value;
-        const selectedMonster = monsterDropdown.value;
-
-        // Update monsterIframe src based on selected family and monster
-        const monsterIframeSrc = selectedMonster
-            ? `/monster/${selectedMonster}`
-            : selectedFamily
-            ? `/monster/${selectedFamily}`
-            : "about:blank";
-
-        // Assuming you have these iframe elements defined somewhere
-        const monsterIframe = document.getElementById("monsterIframe");
-        const breedingIframe = document.getElementById("breedingIframe");
-
-        monsterIframe.src = monsterIframeSrc;
-
-        // Update breedingIframe src based on the selected monster
-        const breedingIframeSrc = selectedMonster
-            ? `/get_breeding_combinations?monster=${selectedMonster}`
-            : "about:blank";
-
-        breedingIframe.src = breedingIframeSrc;
-    }
-}
 
 function populateDropdown(dropdown, data) {
     // Check if dropdown exists

@@ -53,8 +53,8 @@
               width="800">
             </iframe>
     </div>
-    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/breeding.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/sprite.js') }}"></script>
+    {% for file in js_files %}
+    <script src="{{ url_for('static', filename='js/' + file) }}"></script>
+{% endfor %}
   </body>
 </html>
