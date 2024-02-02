@@ -5,22 +5,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Breeding Combinations</title>
+    <title>Breeding Pairs</title>
     <link rel="stylesheet" href="../static/style/output.css" />
   </head>
   <body class="font-mono text-white bg-slate-700">
-    <div id="breedingCombinations">
+    <div id="breedingPairs">
       {% if selected_monster %}
       <h2 class="text-xl font-bold text-center">Breeding Pairs</h2>
       <div class="grid grid-cols-2 gap-1">
         <div class="col-span-1">
           <h3 class="text-lg font-bold">Base</h3>
           <ul>
-            {% for combination in selected_monster.base_combinations %}
+            {% for pair in selected_monster.base_pair %}
             <li id="parent" class="text-center cursor-pointer hover:text-red-700 w-fit">
               <!-- Add a class to make the monster name clickable -->
-              <span class="monster-name" data-name="{{ combination }}"
-                >{{ combination }}</span
+              <span class="monster-name" data-name="{{ pair }}"
+                >{{ pair }}</span
               >
             </li>
             {% endfor %}
@@ -29,11 +29,11 @@
         <div class="col-span-1">
           <h3 class="text-lg font-bold">Mates</h3>
           <ul>
-            {% for combination in selected_monster.mate_combinations %}
+            {% for pair in selected_monster.mate_pair %}
             <li id="parent" class="cursor-pointer hover:text-red-700 w-fit">
               <!-- Add a class to make the monster name clickable -->
-              <span class="monster-name" data-name="{{ combination }}"
-                >{{ combination }}</span
+              <span class="monster-name" data-name="{{ pair }}"
+                >{{ pair }}</span
               >
             </li>
             {% endfor %}
@@ -42,6 +42,5 @@
       </div>
       {% endif %}
     </div>
-
   </body>
 </html>

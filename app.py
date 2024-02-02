@@ -134,14 +134,14 @@ def get_breeding_combinations():
     if breed_id is None:
         return jsonify({"error": f"No breed information found for {selected_monster}"})
 
-    base_combinations, mate_combinations = get_breeding_info(breed_id)
+    base_pair, mate_pair = get_breeding_pairs(breed_id)
 
     return render_template(
         "breeds.html",
         selected_monster={
             "name": selected_monster,
-            "base_combinations": base_combinations,
-            "mate_combinations": mate_combinations,
+            "base_pair": base_pair,
+            "mate_pair": mate_pair,
         },
     )
 
@@ -167,7 +167,7 @@ def get_breed_id(target_monster):
         return None
 
 
-def get_breeding_info(breed_id):
+def get_breeding_pairs(breed_id):
     cursor = g.db.cursor()
 
     # Fetch base and mate breeding combinations based on the breed ID
@@ -182,18 +182,18 @@ def get_breeding_info(breed_id):
 
     breeding_info = cursor.fetchall()
 
-    base_combinations = [
+    base_pair = [
         value
         for (requirement_type, value) in breeding_info
         if requirement_type == "base"
     ]
-    mate_combinations = [
+    mate_pair = [
         value
         for (requirement_type, value) in breeding_info
         if requirement_type == "mate"
     ]
 
-    return base_combinations, mate_combinations
+    return base_pair, mate_pair
 
 
 @app.route("/footer")
