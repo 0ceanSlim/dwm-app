@@ -20,15 +20,17 @@ def teardown_request(exception):
     if hasattr(g, "db"):
         g.db.close()
 
+
 def get_js_files():
-    js_folder = os.path.join(app.static_folder, 'js')
-    js_files = [f for f in os.listdir(js_folder) if f.endswith('.js')]
+    js_folder = os.path.join(app.static_folder, "js")
+    js_files = [f for f in os.listdir(js_folder) if f.endswith(".js")]
     return js_files
 
-@app.route('/')
+
+@app.route("/")
 def show_index():
     js_files = get_js_files()
-    return render_template('index.html', js_files=js_files)
+    return render_template("index.html", js_files=js_files)
 
 
 @app.route("/get_families")
@@ -117,6 +119,7 @@ def monster_info(monster_name):
         },
     )
 
+
 @app.route("/monster_info_json/<monster_name>")
 def monster_info_json(monster_name):
     cursor = g.db.cursor()
@@ -173,19 +176,6 @@ def monster_info_json(monster_name):
             "spawn_locations": spawn_locations,
         }
     )
-
-
-
-# Update the breeding route
-@app.route("/breeding")
-def breeding():
-    # Get all monsters for dropdown
-    cursor = g.db.cursor()
-    cursor.execute("SELECT DISTINCT name FROM monsters")
-    monsters = [row[0] for row in cursor.fetchall()]
-
-    # Pass the monsters to the breeding template
-    return render_template("breeding.html", monsters=monsters)
 
 
 # Add this route for fetching breeding combinations
@@ -262,9 +252,11 @@ def get_breeding_info(breed_id):
 
     return base_combinations, mate_combinations
 
+
 @app.route("/footer")
 def show_footer():
     return render_template("footer.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)

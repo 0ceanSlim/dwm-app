@@ -1,25 +1,20 @@
-function updateIframes(familyDropdown, monsterDropdown) {
+function updateIframes() {
     const selectedFamily = familyDropdown.value;
     const selectedMonster = monsterDropdown.value;
 
+    // Update monsterIframe src based on selected family and monster
     const monsterIframeSrc = selectedMonster
         ? `/monster/${selectedMonster}`
         : selectedFamily
-            ? `/monster/${selectedFamily}`
-            : "about:blank";
+        ? `/monster/${selectedFamily}`
+        : "about:blank";
 
+    monsterIframe.src = monsterIframeSrc;
+
+    // Update breedingIframe src based on the selected monster
     const breedingIframeSrc = selectedMonster
         ? `/get_breeding_combinations?monster=${selectedMonster}`
         : "about:blank";
 
-    updateIframeSrc("monsterIframe", monsterIframeSrc);
-    updateIframeSrc("breedingIframe", breedingIframeSrc);
+    breedingIframe.src = breedingIframeSrc;
 }
-
-function updateIframeSrc(iframeId, src) {
-    const iframe = document.getElementById(iframeId);
-    iframe.src = src;
-}
-
-// Usage example:
-updateIframes(familyDropdown, monsterDropdown);
