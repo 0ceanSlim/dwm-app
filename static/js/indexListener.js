@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //const familyGrid = document.getElementById("familyGrid")
 
     // Initialize dropdowns
-    updateMonstersDropdown();
+    updateMonstersDropdownByFamily();
     // Initialize Family Grid();
     // populateFamilyGrid();
 
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Listeners for Dropdown Changes
     familyDropdown.addEventListener("change", function () {
-        updateMonstersDropdown();
+        updateMonstersDropdownByFamily();
     });
 
     monsterDropdown.addEventListener("change", function () {
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Listener for a click on a breeding parent
     //parent.addEventListener("click", function() {
-    //    updateMonstersDropdown();
+    //    updateMonstersDropdownBySelected();
     //    updateIFrames();  
     //});
 
