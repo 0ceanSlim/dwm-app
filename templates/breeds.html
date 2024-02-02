@@ -42,5 +42,8 @@
       </div>
       {% endif %}
     </div>
+    {% for file in js_files %}
+    <script src="{{ url_for('static', filename='js/' + file) }}"></script>
+    {% endfor %}
   </body>
 </html>

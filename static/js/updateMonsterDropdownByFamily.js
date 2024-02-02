@@ -1,4 +1,4 @@
-function updateMonstersDropdownByFamily() {
+function updateMonsterDropdownByFamily() {
     const selectedFamily = familyDropdown.value;
 
     // Fetch monsters data from the server based on the selected family

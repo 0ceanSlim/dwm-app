@@ -120,6 +120,7 @@ def monster_stats(monster_name):
     )
 
 
+
 # Add this route for fetching breeding combinations
 @app.route("/breeds")
 def get_breeding_combinations():
