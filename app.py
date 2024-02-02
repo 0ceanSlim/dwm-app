@@ -62,10 +62,10 @@ def get_monsters():
 
 
 @app.route("/monster/<monster_name>")
-def monster_info(monster_name):
+def monster_stats(monster_name):
     cursor = g.db.cursor()
 
-    # Retrieve monster information from the database based on name
+    # Retrieve monster stats from the database based on name
     cursor.execute(
         """
         SELECT
@@ -81,39 +81,39 @@ def monster_info(monster_name):
         (monster_name,),
     )
 
-    monster_info = cursor.fetchone()
+    monster_stats = cursor.fetchone()
 
-    if monster_info is None:
+    if monster_stats is None:
         abort(404)
 
     # Retrieve skills for the monster
-    cursor.execute("SELECT skill FROM skills WHERE monster_id = ?", (monster_info[0],))
+    cursor.execute("SELECT skill FROM skills WHERE monster_id = ?", (monster_stats[0],))
     skills = [row[0] for row in cursor.fetchall()]
 
     # Retrieve spawn locations for the monster
     cursor.execute(
         "SELECT map, description FROM spawn_locations WHERE monster_id = ?",
-        (monster_info[0],),
+        (monster_stats[0],),
     )
     spawn_locations = [
         {"map": row[0], "description": row[1]} for row in cursor.fetchall()
     ]
 
     return render_template(
-        "monsters.html",
+        "stats.html",
         monster={
-            "id": monster_info[0],
-            "name": monster_info[1],
-            "family": monster_info[2],
-            "in_story": "Yes" if monster_info[3] else "No",
-            "agl": monster_info[4],
-            "int": monster_info[5],
-            "maxlvl": monster_info[6],
-            "atk": monster_info[7],
-            "mp": monster_info[8],
-            "exp": monster_info[9],
-            "hp": monster_info[10],
-            "def": monster_info[11],
+            "id": monster_stats[0],
+            "name": monster_stats[1],
+            "family": monster_stats[2],
+            "in_story": "Yes" if monster_stats[3] else "No",
+            "agl": monster_stats[4],
+            "int": monster_stats[5],
+            "maxlvl": monster_stats[6],
+            "atk": monster_stats[7],
+            "mp": monster_stats[8],
+            "exp": monster_stats[9],
+            "hp": monster_stats[10],
+            "def": monster_stats[11],
             "skills": skills,
             "spawn_locations": spawn_locations,
         },
