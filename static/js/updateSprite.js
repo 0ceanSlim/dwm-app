@@ -5,7 +5,8 @@ function updateMonsterSprite() {
     var iframe = document.getElementById("monsterSpriteIframe");
     iframe.src = "about:blank"; // Clear the iframe content
     
-    var content = `<style>
+    var content = `<!DOCTYPE html>
+                    <style>
                         body {
                             margin: 0;
                             display: flex;

@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DWM APP</title>
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='/img/favicon.ico') }}"
+    />
+    <title>dwm-app</title>
     <link rel="stylesheet" href="../static/style/output.css" />
   </head>
   <body class="content-center p-4 m-4 font-mono text-white bg-slate-700">
@@ -13,7 +17,7 @@
     <div>
       <label for="familyDropdown">Select Family:</label>
       <select id="familyDropdown" class="p-2 rounded-md bg-slate-800">
-        <option value="">All Families</option>
+        <option value="">All</option>
       </select>
 
       <label for="monsterDropdown">Select Monster:</label>
@@ -22,7 +26,7 @@
         class="p-2 rounded-md bg-slate-800"
         onchange="updateMonsterSprite()"
       >
-        <option value="">All Monsters</option>
+        <option value="">All</option>
       </select>
       <div id="modules" class="flex mt-4">
         <iframe
