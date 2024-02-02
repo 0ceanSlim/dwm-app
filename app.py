@@ -121,8 +121,9 @@ def monster_stats(monster_name):
 
 
 # Add this route for fetching breeding combinations
-@app.route("/get_breeding_combinations")
+@app.route("/breeds")
 def get_breeding_combinations():
+    
     selected_monster = request.args.get("monster")
     if not selected_monster:
         return jsonify({"error": "Invalid input"})
@@ -136,7 +137,7 @@ def get_breeding_combinations():
     base_combinations, mate_combinations = get_breeding_info(breed_id)
 
     return render_template(
-        "breeding.html",
+        "breeds.html",
         selected_monster={
             "name": selected_monster,
             "base_combinations": base_combinations,
