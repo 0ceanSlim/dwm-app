@@ -1,5 +1,3 @@
-<!-- breeding.html -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,11 +15,13 @@
           <h3 class="text-lg font-bold">Base</h3>
           <ul>
             {% for pair in selected_monster.base_pair %}
-            <li id="parent" class="text-center cursor-pointer hover:text-red-700 w-fit">
-              <!-- Add a class to make the monster name clickable -->
-              <span class="monster-name" data-name="{{ pair }}"
-                >{{ pair }}</span
-              >
+            <li
+              id="parent"
+              class="text-center cursor-pointer hover:text-red-700 w-fit"
+            >
+              <span class="monster-name" data-name="{{ pair }}">
+                {{ pair }}
+              </span>
             </li>
             {% endfor %}
           </ul>
@@ -31,10 +31,9 @@
           <ul>
             {% for pair in selected_monster.mate_pair %}
             <li id="parent" class="cursor-pointer hover:text-red-700 w-fit">
-              <!-- Add a class to make the monster name clickable -->
-              <span class="monster-name" data-name="{{ pair }}"
-                >{{ pair }}</span
-              >
+              <span class="monster-name" data-name="{{ pair }}">
+                {{ pair }}
+              </span>
             </li>
             {% endfor %}
           </ul>
