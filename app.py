@@ -28,9 +28,9 @@ def get_js_files():
 
 
 @app.route("/")
-def show_index():
+def show_app():
     js_files = get_js_files()
-    return render_template("index.html", js_files=js_files)
+    return render_template("app.html", js_files=js_files)
 
 
 @app.route("/get_families")
@@ -120,11 +120,9 @@ def monster_stats(monster_name):
     )
 
 
-
 # Add this route for fetching breeding combinations
 @app.route("/breeds")
 def get_breeding_combinations():
-    
     selected_monster = request.args.get("monster")
     if not selected_monster:
         return jsonify({"error": "Invalid input"})
@@ -195,11 +193,6 @@ def get_breeding_pairs(breed_id):
     ]
 
     return base_pair, mate_pair
-
-
-@app.route("/footer")
-def show_footer():
-    return render_template("footer.html")
 
 
 if __name__ == "__main__":
