@@ -34,12 +34,12 @@ def show_app():
 
 #Retrieve Monster Sprites
 @app.route('/img/monster/<selected_monster>.png')
-def retrieve_monster_sprite(selected_monster):
-    return send_from_directory('static/img/monster', f'{selected_monster}.png')
+def serve_monster_sprite(selected_monster):
+    return send_from_directory('static/img/monster/', f'{selected_monster}.png')
 
 #Retrieve Favicon
 @app.route('/img/favicon.ico')
-def retrieve_favicon():
+def serve_favicon():
     return send_from_directory( '','static/img/favicon.ico')
 
 @app.route("/get_families")
