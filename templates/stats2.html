@@ -1,0 +1,35 @@
+{% extends 'app.html' %} {% block head %}{% endblock %} {% block stats %}
+<h2>{{ monster.name }}</h2>
+<p><strong>Family:</strong> {{ monster.family }}</p>
+<div class="Stats">
+  <p><strong>Stats:</strong></p>
+  <ul>
+    <div class="grid grid-cols-2 gap-1">
+      <li><label class="font-bold">Max Level:</label> {{ monster.maxlvl }}</li>
+      <li><label class="font-bold">EXP:</label> {{ monster.exp }}</li>
+      <li><label class="font-bold">HP:</label> {{ monster.hp }}</li>
+      <li><label class="font-bold">ATK:</label> {{ monster.atk }}</li>
+      <li><label class="font-bold">MP:</label> {{ monster.mp }}</li>
+      <li><label class="font-bold">DEF:</label> {{ monster.def }}</li>
+      <li><label class="font-bold">AGL:</label> {{ monster.agl }}</li>
+      <li><label class="font-bold">INT:</label> {{ monster.int }}</li>
+    </div>
+  </ul>
+</div>
+
+<p><strong>Skills:</strong></p>
+<ul>
+  {% for skill in monster.skills %}
+  <li>{{ skill }}</li>
+  {% endfor %}
+</ul>
+<div class="grid grid-cols-1 gap-1 mt-2">
+  <p><strong>In Story:</strong> {{ monster.in_story }}</p>
+  <p><strong>Spawn Locations:</strong></p>
+</div>
+<ul>
+  {% for location in monster.spawn_locations %}
+  <li>{{ location.map }} - {{ location.description }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
