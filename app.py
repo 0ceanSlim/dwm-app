@@ -1,4 +1,4 @@
-from flask import Flask, render_template, g, abort, request, jsonify
+from flask import Flask, render_template, g, abort, request, jsonify, send_from_directory
 import sqlite3, os
 
 app = Flask(__name__)
@@ -32,6 +32,16 @@ def show_app():
     js_files = get_js_files()
     return render_template("app.html", js_files=js_files)
 
+#Retrieve Monster Sprites
+#@app.route('/img/monster/<selected_monster>.png')
+#def retrieve_monster_sprite(selected_monster):
+#    return send_from_directory('static/img/monster', f'{selected_monster}.png')
+
+##NOT SURE THIS IS NEEDED
+#Retrieve Favicon
+#@app.route('/img/favicon.ico')
+#def retrieve_favicon():
+#    return send_from_directory( '','static/img/favicon.ico')
 
 @app.route("/get_families")
 def get_families():
