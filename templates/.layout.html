@@ -10,4 +10,7 @@
   <body class="content-center justify-center p-2 m-2 font-mono text-white bg-slate-800">
     {% block body %} {% endblock %}
   </body>
+  {% for file in js_files %}
+<script src="{{ url_for('static', filename='js/' + file) }}"></script>
+{% endfor %}
 </html>
