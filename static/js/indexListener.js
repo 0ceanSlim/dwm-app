@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     updateMonsterDropdownByFamily();
 
     // Fetch families data from the server and populate families dropdown
-    fetch("/get_families")
+    fetch("/api/families")
         .then(response => response.json())
         .then(data => {
             populateDropdown(familyDropdown, data);

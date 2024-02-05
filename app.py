@@ -42,16 +42,17 @@ def serve_monster_sprite(selected_monster):
 def serve_favicon():
     return send_from_directory( '','static/img/favicon.ico')
 
-@app.route("/get_families")
-def get_families():
+#API Calls
+
+@app.route("/api/families")
+def json_families():
     cursor = g.db.cursor()
     cursor.execute("SELECT DISTINCT name FROM families")
     families = [row[0] for row in cursor.fetchall()]
     return jsonify(families)
 
-
-@app.route("/get_monsters")
-def get_monsters():
+@app.route("/api/monsters")
+def json_monsters():
     selected_family = request.args.get("family")
     cursor = g.db.cursor()
 
@@ -69,6 +70,7 @@ def get_monsters():
     monsters = [row[0] for row in cursor.fetchall()]
     return jsonify(monsters)
 
+# Render HTML Templates
 
 @app.route("/monster/<monster_name>")
 def monster_stats(monster_name):
