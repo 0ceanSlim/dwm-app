@@ -3,7 +3,7 @@ import sqlite3, os
 
 app = Flask(__name__)
 
-DATABASE = "static/data/monsters.db"
+DATABASE = "static/database.db"
 
 
 def connect_db():
@@ -32,12 +32,12 @@ def show_app():
     js_files = get_js_files()
     return render_template("app.html", js_files=js_files)
 
-#Retrieve Monster Sprites
+#Serve Monster Sprites
 @app.route('/img/monster/<selected_monster>.png')
 def serve_monster_sprite(selected_monster):
     return send_from_directory('static/img/monster/', f'{selected_monster}.png')
 
-#Retrieve Favicon
+#Serve Favicon
 @app.route('/img/favicon.ico')
 def serve_favicon():
     return send_from_directory( '','static/img/favicon.ico')
