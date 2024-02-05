@@ -1,6 +1,6 @@
 function updateMonsterSprite() {
     var selectedMonster = document.getElementById("monsterDropdown").value;
-    var spriteUrl = `/static/img/monster/${selectedMonster}.png`;
+    var spriteUrl = `/img/monster/${selectedMonster}.png`;
     
     var iframe = document.getElementById("monsterSpriteIframe");
     iframe.src = "about:blank"; // Clear the iframe content
