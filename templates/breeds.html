@@ -27,6 +27,15 @@
       </ul>
     </div>
   </div>
+  {% endif %} {% if used_in_breeds %}
+  <h2 class="text-xl font-bold text-center">Used In</h2>
+  <ul>
+    {% for breed in used_in_breeds %}
+    <li class="text-center cursor-pointer hover:text-green-700 w-fit">
+      <span class="breed-name" data-name="{{ breed }}">{{ breed }}</span>
+    </li>
+    {% endfor %}
+  </ul>
   {% endif %}
 </div>
 {% for file in js_files %}
