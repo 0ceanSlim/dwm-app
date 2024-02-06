@@ -61,13 +61,21 @@ def json_monsters():
     if selected_family:
         cursor.execute(
             """
-            SELECT name FROM monsters
+            SELECT name
+            FROM monsters
             WHERE family_id = (SELECT id FROM families WHERE name = ?)
+            ORDER BY (agl + int + atk + mp + exp + hp + def) * maxlvl ASC
         """,
             (selected_family,),
         )
     else:
-        cursor.execute("SELECT DISTINCT name FROM monsters")
+        cursor.execute(
+            """
+            SELECT name
+            FROM monsters
+            ORDER BY (agl + int + atk + mp + exp + hp + def) * maxlvl ASC
+            """
+        )
 
     monsters = [row[0] for row in cursor.fetchall()]
     return jsonify(monsters)
