@@ -13,7 +13,7 @@ function updateIframes() {
 
     // Update breedingIframe src based on the selected monster
     const breedingIframeSrc = selectedMonster
-        ? `/breeds?monster=${selectedMonster}`
+        ? `/breed?monster=${selectedMonster}`
         : "about:blank";
 
     breedingIframe.src = breedingIframeSrc;
