@@ -2,50 +2,59 @@
 <h1 class="text-2xl font-black text-white">
   Welcome to the Dragon Warrior Monsters 2 App
 </h1>
+<br />
+<label for="familyDropdown">Select Family:</label>
+<select id="familyDropdown" class="p-2 rounded-md bg-gray-900">
+  <option value="">All Families</option>
+</select>
+<br />
+<label for="monsterDropdown">Select Monster:</label>
+<select
+  id="monsterDropdown"
+  class="p-2 rounded-md bg-slate-900 mt-2"
+  onchange="updateMonsterSprite()"
+>
+  <option value="">All Monsters</option>
+</select>
 
-  <label for="familyDropdown">Select Family:</label>
-  <select id="familyDropdown" class="p-2 rounded-md bg-slate-900">
-    <option value="">All Families</option>
-  </select>
+<br />
 
-  <label for="monsterDropdown">Select Monster:</label>
-  <select
-    id="monsterDropdown"
-    class="p-2 rounded-md bg-slate-900"
-    onchange="updateMonsterSprite()"
+<div id="modules" class="flex mt-4">
+  <iframe
+    id="monsterIframe"
+    src=""
+    class="pl-2 pr-2 ml-4 border-2 rounded-md border-slate-400"
+    height="456"
+    width="280"
   >
-    <option value="">All Monsters</option>
-  </select>
-
-  <div id="modules" class="flex mt-4">
+  </iframe>
+  <div class="grid items-center justify-center grid-cols-1 ml-4">
     <iframe
-      id="monsterIframe"
+      id="monsterSpriteIframe"
       src=""
-      class="pl-2 pr-2 ml-4 border-2 rounded-md border-slate-400"
-      height="456"
-      width="280"
+      class="p-2 ml-8 border-2 rounded-md border-slate-400"
+      height="200"
+      width="200"
     >
     </iframe>
-    <div class="grid items-center justify-center grid-cols-1 ml-4">
-      <iframe
-        id="monsterSpriteIframe"
-        src=""
-        class="p-2 ml-8 border-2 rounded-md border-slate-400"
-        height="200"
-        width="200"
-      >
-      </iframe>
-      <iframe
-        id="breedingIframe"
-        src=""
-        class="p-2 mt-4 border-2 rounded-md border-slate-400"
-        height="200"
-        width="272"
-      >
-      </iframe>
-    </div>
+    <iframe
+      id="breedingIframe"
+      src=""
+      class="p-2 mt-4 border-2 rounded-md border-slate-400"
+      height="200"
+      width="272"
+    >
+    </iframe>
   </div>
 </div>
+<div class="mt-4 text-center">
+  <a
+    href="https://dwm.happytavern.co/skills"
+    class="text-purple-400 hover:underline float-left font-bold text-2xl"
+    >Go to Skills Data Page</a
+  >
+</div>
+<br /><br />
 <div class="mx-auto footer">
   <h2 class="m-2 text-2xl font-bold">About The App</h2>
   <p class="leading-7">
@@ -57,7 +66,7 @@
     repository. Feel free to explore the code, report issues, and submit pull
     requests.
   </p>
-  <div class="mt-4 ">
+  <div class="mt-4">
     <a
       href="https://git.happytavern.co/oceanslim/dwm-app"
       target="_blank"
