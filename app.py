@@ -1,5 +1,5 @@
 from flask import Flask, render_template, g, abort, request, jsonify, send_from_directory
-import sqlite3, os
+import sqlite3, os, csv
 
 from src.python.breed import get_breed_id, get_breeding_pairs, get_used_in_breeds
 
@@ -221,6 +221,19 @@ def get_breeding_combinations():
         },
         used_in_breeds=used_in_breeds,
     )
+
+def read_csv(file_path):
+    data = []
+    with open(file_path, 'r', newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            data.append(row)
+    return data
+
+@app.route('/skills')
+def skills():
+    csv_data = read_csv('src/skills_data.csv')
+    return render_template('skills.html', csv_data=csv_data)
 
 if __name__ == "__main__":
     app.run(debug=True)
