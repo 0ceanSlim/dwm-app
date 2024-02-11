@@ -3,23 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/img/favicon.ico" />
+    <link rel="stylesheet" href="../static/style/output.css" />
     <title>Skills Data</title>
   </head>
-  <body>
-    <h1>Skills Data</h1>
-    <table border="1">
-      <tr>
-        {% for key in csv_data[0].keys() %}
-        <th>{{ key }}</th>
-        {% endfor %}
-      </tr>
-      {% for row in csv_data %}
-      <tr>
-        {% for value in row.values() %}
-        <td>{{ value }}</td>
-        {% endfor %}
-      </tr>
-      {% endfor %}
-    </table>
+  <body
+    class="flex items-center justify-center p-4 m-4 font-mono text-white bg-neutral-800"
+  >
+    <div class="text-center">
+      <h1 class="text-3xl font-bold mb-4">Skills Data</h1>
+      <table class="border-collapse border w-full">
+        <thead>
+          <tr>
+            {% for key in csv_data[0].keys() %}
+            <th class="border py-2 px-4">{{ key }}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in csv_data %}
+          <tr>
+            {% for value in row.values() %}
+            <td class="border py-2 px-4">{{ value }}</td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
