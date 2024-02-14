@@ -40,18 +40,20 @@ def serve_favicon():
     return send_from_directory( '','static/img/favicon.ico')
 
 #API Calls
+from src.api.get_families import get_families_bp
+app.register_blueprint(get_families_bp)
 
 # List All Families
-@app.route("/api/families")
-def json_families():
-    cursor = g.db.cursor()
-    cursor.execute("SELECT DISTINCT name FROM families")
-    families = [row[0] for row in cursor.fetchall()]
-    return jsonify(families)
+#@app.route("/api/families")
+#def get_families():
+#    cursor = g.db.cursor()
+#    cursor.execute("SELECT DISTINCT name FROM families")
+#    families = [row[0] for row in cursor.fetchall()]
+#    return jsonify(families)
 
 # List All Monsters
 @app.route("/api/monsters")
-def json_monsters():
+def get_monsters():
     selected_family = request.args.get("family")
     cursor = g.db.cursor()
 
@@ -79,7 +81,7 @@ def json_monsters():
 
 
 @app.route("/api/monsters/stats")
-def json_monsters_stats():
+def get_monster_stats():
     cursor = g.db.cursor()
 
     # Check if 'monster' argument is provided
