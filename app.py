@@ -39,17 +39,11 @@ def serve_monster_sprite(selected_monster):
 def serve_favicon():
     return send_from_directory( '','static/img/favicon.ico')
 
-#API Calls
-from src.api.get_families import get_families_bp
-app.register_blueprint(get_families_bp)
+#TO-DO: Split the rest of these API Calls
 
-# List All Families
-#@app.route("/api/families")
-#def get_families():
-#    cursor = g.db.cursor()
-#    cursor.execute("SELECT DISTINCT name FROM families")
-#    families = [row[0] for row in cursor.fetchall()]
-#    return jsonify(families)
+#API Calls
+from src.api.get_families import *
+app.register_blueprint(get_families_bp)
 
 # List All Monsters
 @app.route("/api/monsters")
