@@ -1,10 +1,10 @@
 from flask import Flask, render_template, g, abort, request, jsonify
 
+from src.util.utils import *
+
 from src.api.get_monsters import *
 from src.api.get_families import *
 from src.api.get_monster_stats import *
-
-from src.util.utils import *
 
 from src.views.serve_content import *
 
@@ -14,14 +14,17 @@ app = Flask(__name__)
 app.before_request(before_request)
 app.teardown_request(teardown_request)
 
-# Register Serve Content Blueprints
-app.register_blueprint(serve_favicon_bp)
-app.register_blueprint(serve_monster_sprite_bp)
-
 # Register API Blueprints
 app.register_blueprint(get_families_bp)
 app.register_blueprint(get_monsters_bp)
 app.register_blueprint(get_monster_stats_bp)
+
+# Register Serve Content Blueprints
+app.register_blueprint(serve_favicon_bp)
+app.register_blueprint(serve_monster_sprite_bp)
+
+# Register Other Views Blurprints (HTML Render Templates)
+
 
 @app.route("/")
 def show_app():
