@@ -1,112 +1,34 @@
-from flask import Flask, render_template, g, abort, request, jsonify, send_from_directory, url_for
+from flask import Flask, render_template, g, abort, request, jsonify
+
+from src.api.get_monsters import *
+from src.api.get_families import *
+from src.api.get_monster_stats import *
 
 from src.util.utils import *
 
+from src.views.serve_content import *
+
 app = Flask(__name__)
 
+# Utils
 app.before_request(before_request)
 app.teardown_request(teardown_request)
+
+# Register Serve Content Blueprints
+app.register_blueprint(serve_favicon_bp)
+app.register_blueprint(serve_monster_sprite_bp)
+
+# Register API Blueprints
+app.register_blueprint(get_families_bp)
+app.register_blueprint(get_monsters_bp)
+app.register_blueprint(get_monster_stats_bp)
 
 @app.route("/")
 def show_app():
     js_files = get_js_files()
     return render_template("app.html", js_files=js_files)
 
-#Serve Monster Sprites
-@app.route('/img/monster/<selected_monster>.png')
-def serve_monster_sprite(selected_monster):
-    return send_from_directory('static/img/monster/', f'{selected_monster}.png')
 
-#Serve Favicon
-@app.route('/img/favicon.ico')
-def serve_favicon():
-    return send_from_directory( '','static/img/favicon.ico')
-
-#TO-DO: Split the rest of these API Calls
-
-#API Calls
-from src.api.get_families import *
-app.register_blueprint(get_families_bp)
-
-# List All Monsters
-@app.route("/api/monsters")
-def get_monsters():
-    selected_family = request.args.get("family")
-    cursor = g.db.cursor()
-
-    if selected_family:
-        cursor.execute(
-            """
-            SELECT name
-            FROM monsters
-            WHERE family_id = (SELECT id FROM families WHERE name = ?)
-            ORDER BY (agl + int + atk + mp + exp + hp + def) * maxlvl ASC
-        """,
-            (selected_family,),
-        )
-    else:
-        cursor.execute(
-            """
-            SELECT name
-            FROM monsters
-            ORDER BY (agl + int + atk + mp + exp + hp + def) * maxlvl ASC
-            """
-        )
-
-    monsters = [row[0] for row in cursor.fetchall()]
-    return jsonify(monsters)
-
-
-@app.route("/api/monsters/stats")
-def get_monster_stats():
-    cursor = g.db.cursor()
-
-    # Check if 'monster' argument is provided
-    selected_monster = request.args.get("monster")
-
-    if selected_monster:
-        # Fetch specific stats for the monster
-        cursor.execute("""
-            SELECT
-                name,
-                agl AS agility,
-                int AS intelligence,
-                maxlvl AS max_level,
-                exp AS experience,
-                hp AS health_points,
-                atk AS attack,
-                def AS defense
-            FROM monsters
-            WHERE LOWER(name) = LOWER(?)
-        """, (selected_monster.lower(),))
-
-        # Fetch the result and convert it to a dictionary
-        monster_stats = cursor.fetchone()
-
-        if monster_stats:
-            # Map stat names to descriptive labels
-            stat_labels = {
-                "max_level": "Max Level",
-                "experience": "Experience",
-                "health_points": "Health Points",
-                "attack": "Attack",
-                "defense": "Defense",
-                "agility": "Agility",
-                "intelligence": "Intelligence"            
-                }
-
-            # Create a new dictionary with descriptive stat names
-            formatted_stats = {
-                "name": monster_stats[0],
-                **{stat_labels[key]: monster_stats[i + 1] for i, key in enumerate(["agility", "intelligence", "max_level", "experience", "health_points", "attack", "defense"])}
-            }
-
-            return jsonify(formatted_stats)
-        else:
-            return jsonify({"error": "Monster not found"}), 404
-    else:
-        return jsonify({"error": "Monster name not provided"}), 400
-    
 # Render HTML Templates
 
 @app.route("/monster/<monster_name>")
