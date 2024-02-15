@@ -1,28 +1,11 @@
 from flask import Flask, render_template, g, abort, request, jsonify, send_from_directory, url_for
 
-import os
-
 from src.util.utils import *
 
 app = Flask(__name__)
 
-
-@app.before_request
-def before_request():
-    g.db = connect_db()
-
-
-@app.teardown_request
-def teardown_request(exception):
-    if hasattr(g, "db"):
-        g.db.close()
-
-
-def get_js_files():
-    js_folder = os.path.join(app.static_folder, "js")
-    js_files = [f for f in os.listdir(js_folder) if f.endswith(".js")]
-    return js_files
-
+app.before_request(before_request)
+app.teardown_request(teardown_request)
 
 @app.route("/")
 def show_app():
