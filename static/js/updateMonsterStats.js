@@ -11,6 +11,7 @@ function updateMonsterStats() {
         statsContainer.innerHTML = `<p>Max Level: ${data["Max Level"]}</p>
                                     <p>Experience: ${data.Experience}</p>
                                     <p>Health Points: ${data["Health Points"]}</p>
+                                    <p>Mana Points: ${data["Mana Points"]}</p>
                                     <p>Attack: ${data.Attack}</p>
                                     <p>Defense: ${data.Defense}</p>
                                     <p>Agility: ${data.Agility}</p>

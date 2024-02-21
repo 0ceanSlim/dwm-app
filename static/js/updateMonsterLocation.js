@@ -10,7 +10,7 @@ function updateMonsterLocation() {
       if (data.Location !== null) {
         // Update the HTML content with the monster location
         var locationContainer = document.getElementById("monsterLocationContainer");
-        locationContainer.innerHTML = `<h2>${data.Location}</h2>`;
+        locationContainer.innerHTML = `<h2>Known Locations:<br>${data.Location}</h2>`;
       } else {
         // Handle the case when location is null (optional)
         var locationContainer = document.getElementById("monsterLocationContainer");

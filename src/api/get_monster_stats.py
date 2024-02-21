@@ -20,6 +20,7 @@ def get_monster_stats():
                 monsters.maxlvl AS max_level,
                 monsters.exp AS experience,
                 monsters.hp AS health_points,
+                monsters.mp AS mana_points,
                 monsters.atk AS attack,
                 monsters.def AS defense,
                 families.name AS family,
@@ -45,6 +46,7 @@ def get_monster_stats():
                 "max_level": "Max Level",
                 "experience": "Experience",
                 "health_points": "Health Points",
+                "mana_points": "Mana Points",
                 "attack": "Attack",
                 "defense": "Defense",
                 "agility": "Agility",
@@ -57,7 +59,7 @@ def get_monster_stats():
             # Create a new dictionary with descriptive stat names
             formatted_stats = {
                 "name": monster_stats[0],
-                **{stat_labels[key]: monster_stats[i + 1] for i, key in enumerate(["agility", "intelligence", "max_level", "experience", "health_points", "attack", "defense", "family", "location", "skills"])}
+                **{stat_labels[key]: monster_stats[i + 1] for i, key in enumerate(["agility", "intelligence", "max_level", "experience", "health_points", "mana_points", "attack", "defense", "family", "location", "skills"])}
             }
 
             return jsonify(formatted_stats)
