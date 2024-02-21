@@ -26,7 +26,6 @@ app.register_blueprint(get_monster_stats_bp)
 app.register_blueprint(serve_img_bp)
 
 # Register Other Views Blurprints (HTML Render Templates)
-app.register_blueprint(monster_stats_bp)
 app.register_blueprint(breed_info_bp)
 app.register_blueprint(skills_bp)
 
