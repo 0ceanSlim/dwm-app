@@ -24,5 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
         updateMonsterName();
         updateMonsterFamily();
         updateMonsterLocation();
+        updateMonsterSkills();
     });
 });
