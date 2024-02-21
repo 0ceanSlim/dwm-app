@@ -21,5 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
     monsterDropdown.addEventListener("change", function () {
         updateIframes();
         updateMonsterStats();
+        updateMonsterName();
     });
 });
