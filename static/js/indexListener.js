@@ -20,9 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     monsterDropdown.addEventListener("change", function () {
         updateIframes();
-    });
-
-    monsterDropdown.addEventListener("change", function () {
         updateMonsterStats();
     });
 });
