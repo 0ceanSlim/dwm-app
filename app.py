@@ -23,8 +23,7 @@ app.register_blueprint(get_monsters_bp)
 app.register_blueprint(get_monster_stats_bp)
 
 # Register Serve Content Blueprints
-app.register_blueprint(serve_favicon_bp)
-app.register_blueprint(serve_monster_sprite_bp)
+app.register_blueprint(serve_img_bp)
 
 # Register Other Views Blurprints (HTML Render Templates)
 app.register_blueprint(monster_stats_bp)

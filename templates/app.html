@@ -4,14 +4,14 @@
 </h1>
 <br />
 <label for="familyDropdown">Select Family:</label>
-<select id="familyDropdown" class="p-2 rounded-md bg-gray-900">
+<select id="familyDropdown" class="p-2 bg-gray-900 rounded-md">
   <option value="">All Families</option>
 </select>
 <br />
 <label for="monsterDropdown">Select Monster:</label>
 <select
   id="monsterDropdown"
-  class="p-2 rounded-md bg-slate-900 mt-2"
+  class="p-2 mt-2 rounded-md bg-slate-900"
   onchange="updateMonsterSprite()"
 >
   <option value="">All Monsters</option>
@@ -50,10 +50,17 @@
 <div class="mt-4 text-center">
   <a
     href="https://dwm.happytavern.co/skills"
-    class="text-purple-400 hover:underline float-left font-bold text-2xl"
+    class="float-left text-2xl font-bold text-purple-400 hover:underline"
     >Go to Skills Data Page</a
   >
 </div>
+
+
+<div id="monsterStatsContainer">
+  <!-- Monster stats will be displayed here -->
+</div>
+
+
 <br /><br />
 <div class="mx-auto footer">
   <h2 class="m-2 text-2xl font-bold">About The App</h2>

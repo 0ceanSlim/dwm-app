@@ -22,4 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         updateIframes();
     });
 
+    monsterDropdown.addEventListener("change", function () {
+        updateMonsterStats();
+    });
 });
