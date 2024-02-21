@@ -7,7 +7,6 @@ from src.api.get_families import *
 from src.api.get_monster_stats import *
 
 from src.views.serve_content import *
-from src.views.monster_stats import *
 from src.views.breed_info import *
 from src.views.skills import *
 
