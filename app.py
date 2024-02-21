@@ -22,7 +22,7 @@ app.register_blueprint(get_monsters_bp)
 app.register_blueprint(get_monster_stats_bp)
 
 # Register Serve Content Blueprints
-app.register_blueprint(serve_img_bp)
+app.register_blueprint(serve_content)
 
 # Register Other Views Blurprints (HTML Render Templates)
 app.register_blueprint(breed_info_bp)
