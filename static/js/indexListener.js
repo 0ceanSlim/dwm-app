@@ -22,5 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         updateIframes();
         updateMonsterStats();
         updateMonsterName();
+        updateMonsterFamily();
+        updateMonsterLocation();
     });
 });
