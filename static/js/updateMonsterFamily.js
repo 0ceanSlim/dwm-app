@@ -8,7 +8,7 @@ function updateMonsterFamily() {
       .then(data => {
         // Update the HTML content with the monster family
         var familyContainer = document.getElementById("monsterFamilyContainer");
-        familyContainer.innerHTML = `<h2>${data.Family}</h2>`;
+        familyContainer.innerHTML = `<h2>Family: ${data.Family}</h2>`;
       })
       .catch(error => {
         console.error("Error fetching monster family:", error);

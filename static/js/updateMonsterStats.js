@@ -8,13 +8,14 @@ function updateMonsterStats() {
       .then(data => {
         // Update the HTML content with the monster stats
         var statsContainer = document.getElementById("monsterStatsContainer");
-        statsContainer.innerHTML = `<p>Agility: ${data.Agility}</p>
-                                   <p>Attack: ${data.Attack}</p>
-                                   <p>Defense: ${data.Defense}</p>
-                                   <p>Experience: ${data.Experience}</p>
-                                   <p>Health Points: ${data["Health Points"]}</p>
+        statsContainer.innerHTML = `<p>Max Level: ${data["Max Level"]}</p>
+                                    <p>Experience: ${data.Experience}</p>
+                                    <p>Health Points: ${data["Health Points"]}</p>
+                                    <p>Attack: ${data.Attack}</p>
+                                    <p>Defense: ${data.Defense}</p>
+                                    <p>Agility: ${data.Agility}</p>
                                    <p>Intelligence: ${data.Intelligence}</p>
-                                   <p>Max Level: ${data["Max Level"]}</p>`;
+                                   `;
       })
       .catch(error => {
         console.error("Error fetching monster stats:", error);

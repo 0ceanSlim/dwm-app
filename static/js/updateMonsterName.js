@@ -8,7 +8,7 @@ function updateMonsterName() {
       .then(data => {
         // Update the HTML content with the monster name
         var nameContainer = document.getElementById("monsterNameContainer");
-        nameContainer.innerHTML = `<h2>${data.name}</h2>`;
+        nameContainer.innerHTML = `<h2 class="text-3xl font-bold">${data.name}</h2>`;
       })
       .catch(error => {
         console.error("Error fetching monster name:", error);
