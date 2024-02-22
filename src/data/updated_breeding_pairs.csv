@@ -1,905 +1,926 @@
-base,mate,offspring
-beast,dragon,Almiraj
-Saccer,dragon,Antbear
-beast,PutrePup,Arrowdog
-CatMage,devil,Beastnite
-MadGopher,Dumbira,Beastnite
-beast,EvilArmor,Beastnite
-beast,water,Beavern
-beast,Drygon,BigEye
-beast,EyeBall,BigEye
-beast,bird,Catfly
-CatFly,1EyeClown,Catmage
-CatFly,CatMage,Catmage
-CatFly,EvilWand,Catmage
-CatFly,MimeSlime,Catmage
-CatFly,Reaper,Catmage
-CatFly,Sickler,Catmage
-CatFly,TreeBoy,Catmage
-beast,boss,Darkhorn
-SuperTen,BeastNite,Dumbira
-SuperTen,Bubblemon,Dumbira
-NoctoKing,Gigantes,Dumbira
-SuperTen,Lizardman,Dumbira
-SuperTen,MerTiger,Dumbira
-SuperTen,Orc,Dumbira
-SuperTen,SabreMan,Dumbira
-SuperTen,Walrusman,Dumbira
-beast,LizardFly,Fairyrat
-beast,DrakSlime,Goategon
-beast,LizardMan,Goategon
-DarkHorn,boss,Gorago
-DarkHorn,Orochi,Gorago
-beast,devil,Grizzly
-beast,Golem,Grizzly
-beast,IceMan,Grizzly
-beast,LavaMan,Grizzly
-beast,MetalDrak,Grizzly
-beast,Roboster,Grizzly
-beast,StoneMan,Grizzly
-Grizzly,devil,Gulpbeast
-BigEye,dragon,Gulpbeast
-Dumbira,dragon,Gulpbeast
-Grizzly,dragon,Gulpbeast
-Trumpeter,dragon,Gulpbeast
-Yeti,dragon,Gulpbeast
-Tonguella,DeadNoble,Gulpbeast
-Yeti,DeadNoble,Gulpbeast
-Tonguella,Digster,Gulpbeast
-Trumpeter,Digster,Gulpbeast
-Goategon,Golem,Gulpbeast
-Trumpeter,Golem,Gulpbeast
-Goategon,IceMan,Gulpbeast
-Trumpeter,IceMan,Gulpbeast
-Goategon,LavaMan,Gulpbeast
-Trumpeter,LavaMan,Gulpbeast
-Dumbira,MetalDrak,Gulpbeast
-IronTurt,MetalDrak,Gulpbeast
-Goategon,Roboster,Gulpbeast
-Trumpeter,Roboster,Gulpbeast
-Tonguella,Skeletor,Gulpbeast
-WildApe,Skeletor,Gulpbeast
-Grizzly,Skullgon,Gulpbeast
-Tonguella,Skullgon,Gulpbeast
-Goategon,StoneMan,Gulpbeast
-Trumpeter,StoneMan,Gulpbeast
-Tonguella,WhiteKing,Gulpbeast
-Unicorn,WhiteKing,Gulpbeast
-beast,Stubsuck,Hammerman
-beast,Tortragon,Ironturt
-Trumpeter,Balzak,Kingleo
-Trumpeter,BossTroll,Kingleo
-Trumpeter,GoldGolem,Kingleo
-Trumpeter,MetalDrak,Kingleo
-Trumpeter,Trumpeter,Kingleo
-beast,Dragon,Madcat
-CatMage,Goategon,Madcat
-CatMage,Unicorn,Madcat
-beast,SabreMan,Madgopher
-beast,DuckKite,Mommonja
-ArrowDog,Dracky,Noctoking
-ArrowDog,Shadow,Noctoking
-beast,plant,Pillowrat
-beast,bug,Saccer
-beast,zombie,Skullroo
-Dumbira,Any Slime,Superten
-GulpBeast,CopyCat,Superten
-GulpBeast,Demonite,Superten
-GulpBeast,FaceTree,Superten
-GulpBeast,FangSlime,Superten
-GulpBeast,FunkyBird,Superten
-GulpBeast,Gremlin,Superten
-GulpBeast,JewelBag,Superten
-GulpBeast,Lipsy,Superten
-GulpBeast,MadDragon,Superten
-GulpBeast,MadPlant,Superten
-GulpBeast,Mimic,Superten
-beast,Mudron,Superten
-Tonguella,TreeSlime,Superten
-beast,Any Slime,Tonguella
-SuperTen,dragon,Trumpeter
-GulpBeast,Balzak,Trumpeter
-GulpBeast,Golem,Trumpeter
-GulpBeast,IceMan,Trumpeter
-Tonguella,LandOwl,Trumpeter
-GulpBeast,LavaMan,Trumpeter
-Grizzly,MadCondor,Trumpeter
-GulpBeast,MetalDrak,Trumpeter
-GulpBeast,Roboster,Trumpeter
-GulpBeast,StoneMan,Trumpeter
-GulpBeast,WhipBird,Trumpeter
-WildApe,WildApe,Trumpeter
-Yeti,ZapBird,Trumpeter
-Goategon,Any Slime,Unicorn
-Grizzly,Any Slime,Unicorn
-GulpBeast,Any Slime,Unicorn
-Tonguella,Any Slime,Unicorn
-Trumpeter,Any Slime,Unicorn
-WildApe,Any Slime,Unicorn
-Yeti,Any Slime,Unicorn
-beast,FangSlime,Unicorn
-Almiraj,dragon,Wildape
-beast,MadPecker,Wildape
-CatFly,bird,Windbeast
-beast,material,Windbeast
-MadCat,BattleRex,Yeti
-Dumbira,Blizzardy,Yeti
-Goategon,Gasgon,Yeti
-MadCat,MadDragon,Yeti
-beast,Orc,Yeti
-IronTurt,Pteranod,Yeti
-MadCat,SkyDragon,Yeti
-WildApe,Swordgon,Yeti
-bird,water,Aquahawk
-RainHawk,boss,Azurile
-Shantak,GoldGolem,Azurile
-bird,SuperTen,Blizzardy
-bird,Yeti,Blizzardy
-bird,WhiteKing,Blizzardy
-bird,Trumpeter,Blizzardy
-bird,Skullgon,Blizzardy
-bird,Skeletor,Blizzardy
-bird,Servant,Blizzardy
-bird,Metaly,Blizzardy
-bird,Metabble,Blizzardy
-bird,IceMan,Blizzardy
-bird,Goategon,Blizzardy
-bird,DeadNoble,Blizzardy
-bird,beast,Bullbird
-BigRoost,beast,Cragdevil
-Emyu,beast,Cragdevil
-MadGoose,beast,Cragdevil
-Picky,Any Slime,Dracky
-bird,bug,Duckkite
-MadPecker,BigEye,Emyu
-MadPecker,DarkEye,Emyu
-MadCondor,MadPecker,Emyu
-KiteHawk,beast,Emyu
-bird,plant,Florajay
-bird,Brushead,Funkybird
-bird,DanceVegi,Funkybird
-bird,Pyuro,Funkybird
-bird,TropicGel,Funkybird
-Blizzardy,Lionex,Garudian
-ZapBird,Lionex,Garudian
-Phoenix,Lionex,Garudian
-FunkyBird,Jamirus,Garudian
-DuckKite,material,Kitehawk
-bird,Facer,Kitehawk
-BullBird,devil,Landowl
-Garudian,Any Slime,Landowl
-BullBird,Grizzly,Landowl
-LandOwl,devil,Madcondor
-bird,CoilBird,Madcondor
-KiteHawk,BigRoost,Madcondor
-Wyvern,dragon,Madgoose
-CragDevil,MadRaven,Madgoose
-CragDevil,DuckKite,Madgoose
-bird,Droll,Madgoose
-Phoenix,zombie,Madgoose
-MadCondor,zombie,Madgoose
-LandOwl,zombie,Madgoose
-bird,devil,Madpecker
-bird,zombie,Madraven
-bird,material,Mistywing
-bird,ArcDemon,Phoenix
-bird,CopyCat,Phoenix
-bird,DrakSlime,Phoenix
-bird,Gismo,Phoenix
-bird,Grizzly,Phoenix
-bird,GulpBeast,Phoenix
-bird,IronTurt,Phoenix
-bird,LavaMan,Phoenix
-bird,Any Slime,Picky
-Blizzardy,Vampirus,Rainhawk
-Blizzardy,Phoenix,Rainhawk
-WhipBird,GreatDrak,Shantak
-WhipBird,Jamirus,Shantak
-bird,RockSlime,Stubbird
-bird,Rayburn,Whipbird
-ZapBird,StoneMan,Whipbird
-bird,SnakeBat,Whipbird
-MadGoose,SlimeBorg,Whipbird
-LandOwl,RockSlime,Whipbird
-Blizzardy,MetalDrak,Whipbird
-ZapBird,Merman,Whipbird
-ZapBird,Golem,Whipbird
-MadCondor,Digster,Whipbird
-bird,dragon,Wyvern
-bird,boss,Zapbird
-MadCondor,Gismo,Zapbird
-Phoenix,Gismo,Zapbird
-WhipBird,Gismo,Zapbird
-Zoma,PsychoPiz,Asurazoma
-Hargon,Orochi,Baramos
-DeathMore3,AsuraZoma,Darkdrium
-DeathMore3,GranSlime,Darkdrium
-DeathMore3,Watabou,Darkdrium
-Mirudraas1,Azurile,Deathmore1
-DeathMore1,Titanis,Deathmore2
-Mirudraas2,Zoma,Deathmore3
-DeathMore2,DarkMate,Deathmore3
-DeathMore1,Armorpion,Deathmore3
-DeathMore2,Mudou,Deathmore4
-Zoma,Mirudraas1,Deathmore5
-DeathMore2,Poseidon,Deathmore5
-Zoma,Mirudraas2,Deathmore6
-Zoma,Azurile,Deathmore7
-Servant,Andreal,Dracolord1
-DracoLord1,Divinegon,Dracolord2
-Servant,GreatDrak,Dracolord3
-Pizzaro,KingLeo,Esterk
-Pizzaro,Gorago,Esterk
-Sidoh,Titanis,Genosidoh
-WhiteKing,MetalKing,Hargon
-DracoLord2,Orligon,LordDraco
-Esterk,GoldSlime,Mirudraas1
-Mirudraas1,Orligon,Mirudraas2
-Mirudraas1,Spikerous,Mirudraas3
-Baramos,Gorago,Mudou
-Baramos,DarkHorn,Mudou
-PsychoPiz,Niterich,Orgodemir1
-Orgodemir,LordDraco,Orgodemir2
-Orgodemir,GigaDraco,Orgodemir3
-Durran,Divinegon,Pizzaro
-Pizzaro,Esterk,Psychopiz
-Jamirus,Rosevine,Sidoh
-DracoLord1,Sidoh,Zoma
-DracoLord2,Sidoh,Zoma
-GiantWorm,material,Armorpede
-bug,IronTurt,Armorpede
-MultiEyes,RockSlime,Armorpede
-MultiEyes,Tortragon,Armorpede
-Droll,dragon,Armorpede
-WarMantis,CancerMan,Armorpion
-HornBeet,Hornbeet,Armorpion
-WarMantis,Octoraid,Armorpion
-WarMantis,RogueNite,Armorpion
-GiantSlug,Any Slime,Armyant
-bug,Cancerman,Armycrab
-bug,DarkCrab,Armycrab
-MultiEyes,Pyuro,Belzebub
-MadHornet,GoHopper,Belzebub
-MultiEyes,ButterFly,Belzebub
-MadHornet,zombie,Belzebub
-bug,bird,Butterfly
-bug,dragon,Catapila
-bug,boss,Digster
-ArmyCrab,Clawster,Digster
-Lipsy,Any Slime,Droll
-Lipsy,Angleron,Droll
-Lipsy,Aquarella,Droll
-ButterFly,ButterFly,Droll
-Eyeder,Eyeder,Droll
-Lipsy,Octokid,Droll
-bug,Spooky,Droll
-TailEater,TailEater,Droll
-bug,Octoreach,Eyeder
-bug,Gamanian,Eyeder
-Catapila,beast,Eyeder
-bug,Amberweed,Eyeder
-ButterFly,devil,Giantmoth
-bug,RayGigas,Giantmoth
-bug,Saccer,Giantmoth
-bug,Any Slime,Giantslug
-bug,devil,Giantworm
-bug,beast,Gophecada
-ArmorPede,devil,Hornbeet
-WarMantis,devil,Hornbeet
-StagBug,StagBug,Hornbeet
-bug,zombie,Lipsy
-bug,FairyRat,Madhornet
-ButterFly,Pyuro,Madhornet
-Eyeder,zombie,Madhornet
-Droll,zombie,Madhornet
-Pyuro,zombie,Madhornet
-TailEater,devil,MultiEyes
-Catapila,Butterfly,MultiEyes
-Catapila,Catapila,MultiEyes
-bug,water,Pyuro
-bug,1EyeClown,Sickler
-bug,Reaper,Sickler
-WarMantis,Any Slime,Sickler
-Armorpion,WhiteKing,Skularach
-bug,material,Stagbug
-WeedBug,plant,Taileater
-WeedBug,Anemon,Taileater
-bug,FloraMan,Taileater
-Sickler,devil,Warmantis
-bug,plant,Weedbug
-EyeBall,Any Slime,1EyeClown
-Pixy,Any Slime,1EyeClown
-Demonite,Any Slime,1EyeClown
-Evilbeast,dragon,Agdevil
-Gremlin,dragon,Agdevil
-MedusaEye,dragon,Agdevil
-SkulRider,dragon,Agdevil
-Grendal,Grendal,Akubar
-ArcDemon,GateGuard,Akubar
-Gigantes,Garudian,Arcdemon
-Gigantes,ZapBird,Arcdemon
-Gigantes,WhipBird,Arcdemon
-Gigantes,Trumpeter,Arcdemon
-AgDevil,SpotKing,Arcdemon
-Gigantes,Orochi,Arcdemon
-Gigantes,MetalKing,Arcdemon
-Gigantes,MetalDrak,Arcdemon
-Grendal,KingSlime,Arcdemon
-Gigantes,KingLeo,Arcdemon
-Gigantes,GreatDrak,Arcdemon
-Gigantes,Andreal,Arcdemon
-GateGuard,zombie,Arcdemon
-Ogre,dragon,Arcdemon
-devil,boss,Arcdemon
-Ogre,StoneMan,Bosstroll
-Centasaur,WalrusMan,Bosstroll
-Centasaur,GreatDrak,Bosstroll
-Centasaur,Balzak,Bosstroll
-GoatHorn,beast,Bosstroll
-devil,water,Bubblemon
-BossTroll,beast,Centasaur
-GateGuard,beast,Centasaur
-Ogre,beast,Centasaur
-ArcDemon,dragon,Centasaur
-1EyeClown,1EyeClown,Chopclown
-Lionex,MimeSlime,Chopclown
-devil,plant,Darkeye
-devil,bird,Demonite
-Centasaur,GoldGolem,Durran
-Jamirus,Serpentia,Durran
-ArcDemon,material,Evilarmor
-GateGuard,material,Evilarmor
-Ogre,material,Evilarmor
-devil,ArmorPede,Evilarmor
-devil,material,Evilbeast
-BossTroll,IceMan,Evilwell
-Ogre,LavaMan,Evilwell
-devil,bug,Eyeball
-Gigantes,MistyWing,Gateguard
-Gigantes,Rosevine,Gateguard
-Gigantes,Skullgon,Gateguard
-AgDevil,SlimeBorg,Gateguard
-Grendal,Swordgon,Gateguard
-Gigantes,WhiteKing,Gateguard
-Ogre,zombie,Gateguard
-Gigantes,GiantMoth,Gateguard
-Gigantes,MadCondor,Gateguard
-Gigantes,AxeShark,Gateguard
-Gigantes,Coatol,Gateguard
-Demonite,Demonite,Gateguard
-Gigantes,DeadNoble,Gateguard
-EvilBeast,zombie,Gigantes
-MedusaEye,zombie,Gigantes
-SkulRider,zombie,Gigantes
-devil,BigEye,Gigantes
-ArcDemon,beast,Goathorn
-devil,DarkHorn,Goathorn
-devil,beast,Gremlin
-EvilBeast,beast,Grendal
-Gremlin,beast,Grendal
-MedusaEye,beast,Grendal
-SkulRider,beast,Grendal
-devil,BeastNite,Grendal
-devil,MadDragon,Grendal
-Akubar,RainHawk,Jamirus
-Centasaur,boss,Lampgenie
-ArcDemon,Garudian,Lionex
-devil,LizardMan,Lionex
-ArcDemon,zombie,Lionex
-devil,RogueNite,Madknight
-devil,dragon,Medusaeye
-1EyeClown,zombie,Medusaeye
-Gremlin,Aquarella,Medusaeye
-DarkEye,Octoreach,Medusaeye
-AgDevil,GulpBeast,Ogre
-Gigantes,WalrusMan,Ogre
-Grendal,Unicorn,Ogre
-Gigantes,Roboster,Ogre
-Gigantes,MerTiger,Ogre
-devil,HammerMan,Ogre
-Gigantes,Digster,Ogre
-GateGuard,dragon,Ogre
-devil,BeanMan,Orc
-devil,Any Slime,Pixy
-devil,zombie,Skulrider
-Durran,DarkHorn,Titanis
-SkyDragon,ArcDemon,Andreal
-SkyDragon,Akubar,Andreal
-MadDragon,Trumpeter,Andreal
-SkyDragon,Ogre,Andreal
-BattleRex,MadCondor,Andreal
-SkyDragon,Lionex,Andreal
-dragon,Gulpple,Andreal
-SkyDragon,Golem,Andreal
-SkyDragon,GoatHorn,Andreal
-Gasgon,Goategon,Andreal
-SkyDragon,FunkyBird,Andreal
-SkyDragon,DeadNoble,Andreal
-dragon,EvilArmor,Battlerex
-dragon,KingLeo,Battlerex
-dragon,Lionex,Battlerex
-dragon,MadKnight,Battlerex
-dragon,Ogre,Battlerex
-dragon,Voodoll,Chamelgon
-BattleRex,StoneMan,Coatol
-WingSnake,WingSnake,Coatol
-Vampirus,WhipBird,Coatol
-SkyDragon,WhipBird,Coatol
-Gasgon,MadKnight,Coatol
-Pteranod,DarkHorn,Coatol
-LizardMan,CopyCat,Coatol
-dragon,BigRoost,Crestpent
-SkyDragon,Orochi,Divinegon
-SkyDragon,Serpentia,Divinegon
-DragonKid,DragonKid,Dragon
-dragon,Any Slime,Dragonkid
-dragon,water,Drygon
-dragon,bug,Fairydrak
-dragon,plant,Gasgon
-Andreal,BossTroll,Gigadraco
-BattleRex,Gigantes,Gigadraco
-GreatDrak,Gigantes,Gigadraco
-SkyDragon,Gigantes,Gigadraco
-dragon,ZapBird,Greatdrak
-dragon,WhipBird,Greatdrak
-dragon,Unicorn,Greatdrak
-dragon,SpotKing,Greatdrak
-dragon,Gigantes,Greatdrak
-dragon,MetalKing,Greatdrak
-DragonKid,DragonKid,Greatdrak
-Dragon,Dragon,Greatdrak
-dragon,Centasaur,Greatdrak
-dragon,BattleRex,Greatdrak
-dragon,KingSlime,Greatdrak
-dragon,Babble,Kingcobra
-dragon,GoHopper,Lizardfly
-dragon,devil,Lizardman
-Gasgon,beast,Maddragon
-dragon,GulpBeast,Maddragon
-dragon,Picky,Minidrak
-Divinegon,GigaDraco,Orligon
-Divinegon,GoldGolem,Orligon
-dragon,boss,Orochi
-Andreal,MedusaEye,Orochi
-GreatDrak,MedusaEye,Orochi
-dragon,zombie,Poisongon
-dragon,bird,Pteranod
-LizardMan,WingSlime,Rayburn
-LizardMan,Trumpeter,Rayburn
-LizardMan,Gigantes,Rayburn
-dragon,MadCondor,Rayburn
-LizardMan,MadCat,Rayburn
-LizardMan,GoatHorn,Rayburn
-LizardMan,GateGuard,Rayburn
-LizardMan,FaceTree,Rayburn
-LizardMan,Lionex,Rayburn
-GreatDrak,Lionex,Serpentia
-GreatDrak,Octoraid,Serpentia
-GreatDrak,Skeletor,Serpentia
-dragon,Phoenix,Skydragon
-dragon,CatFly,Snakebat
-KingCobra,Dracky,Snakebat
-dragon,ArmyCrab,Spikerous
-dragon,Digster,Spikerous
-dragon,material,Swordgon
-dragon,beast,Tortragon
-dragon,MadGoose,Vampirus
-Pteranod,Pteranod,Vampirus
-Crestpent,Crestpent,Wingsnake
-IceMan,devil,Balzak
-LavaMan,devil,Balzak
-material,boss,Balzak
-DarkMate,bug,Bombcrag
-Roboster,bug,Bombcrag
-SpikyBoy,SpikyBoy,Bombcrag
-material,water,Brushead
-Puppetor,Demonite,Brushead
-Puppetor,Pixy,Brushead
-Gismo,LampGenie,Cloudking
-Gismo,WhiteKing,Cloudking
-Gismo,WhaleMage,Cloudking
-Gismo,SpotKing,Cloudking
-Gismo,SkyDragon,Cloudking
-Gismo,KingSquid,Cloudking
-Gismo,KingSlime,Cloudking
-Gismo,DracoLord1,Cloudking
-material,bird,Coilbird
-Roboster,bird,Curselamp
-Roboster2,bird,Curselamp
-material,WingTree,Curselamp
-GoldGolem,MetalKing,Darkmate
-Mimic,Scallopa,Evilpot
-material,Snaily,Evilpot
-Gismo,devil,Evilpot
-material,dragon,Evilwand
-material,Dracky,Exaucers
-material,plant,Facer
-Goopi,Anemon,Gismo
-MadCandle,DrakSlime,Gismo
-Goopi,EvilSeed,Gismo
-Goopi,FireWeed,Gismo
-Goopi,MistyWing,Gismo
-Goopi,Phoenix,Gismo
-MadMirror,Wyvern,Gismo
-LavaMan,BossTroll,Goldgolem
-IceMan,LavaMan,Goldgolem
-MudDoll,MudDoll,Golem
-JewelBag,material,Goopi
-Roboster,KingLeo,Iceman
-Roboster2,KingLeo,Iceman
-MetalDrak,Skullgon,Iceman
-MetalDrak,WhiteKing,Iceman
-material,Any Slime,Jewelbag
-MetalDrak,ZapBird,Lavaman
-MetalDrak,Orochi,Lavaman
-MetalDrak,KingLeo,Lavaman
-MetalDrak,BossTroll,Lavaman
-MetalDrak,ArcDemon,Lavaman
-MetalDrak,Centasaur,Lavaman
-material,beast,Madcandle
-material,devil,Madmirror
-Roboster,dragon,Metaldrak
-material,Andreal,Metaldrak
-StoneMan,GreatDrak,Metaldrak
-Roboster2,MetalDrak,Metaldrak
-StoneMan,Spikerous,Metaldrak
-Roboster,zombie,Mimic
-material,BoxSlime,Mimic
-Roboster,RushFish,Mimic
-Goopi,Cancerman,Muddoll
-Goopi,Goopi,Muddoll
-RogueNite,devil,Protomech
-Roboster,Any Slime,Protomech
-Roboster2,Any Slime,Protomech
-material,EvilArmor,Protomech
-material,Gremlin,Puppetor
-SabreMan,Unicorn,Roboster
-material,Trumpeter,Roboster
-SabreMan,SlimeBorg,Roboster
-material,SkulRider,Roboster
-SabreMan,Skeletor,Roboster
-material,GulpBeast,Roboster
-SabreMan,Ogre,Roboster
-material,Grizzly,Roboster
-SabreMan,Grendal,Roboster
-SabreMan,GreatDrak,Roboster
-SabreMan,EvilArmor,Roboster
-SabreMan,DeadNoble,Roboster
-material,KingLeo,Roboster
-Roboster,Roboster,Roboster2
-material,zombie,Roguenite
-Voodoll,MadGoose,Sabreman
-Golem,Phoenix,Sabreman
-EvilWand,LandOwl,Sabreman
-material,GiantWorm,Sabreman
-StoneMan,FunkyBird,Sabreman
-material,bug,Spikyboy
-material,Digster,Stoneman
-Golem,Golem,Stoneman
-material,HornBeet,Stoneman
-Puppetor,devil,Voodoll
-Golem,DrakSlime,Voodoll
-material,Lipsy,Voodoll
-StoneMan,RockSlime,Voodoll
-StoneMan,SlimeNite,Voodoll
-StoneMan,Snaily,Voodoll
-plant,material,Amberweed
-Eggplaton,devil,Beanman
-plant,PillowRat,Beanman
-plant,FishRider,Beanman
-plant,bug,Cactiball
-MadPlant,beast,Dancevegi
-plant,Facer,Dancevegi
-plant,Gulpple,Devipine
-RoseVine,Gigantes,Egdracil
-plant,Aquarella,Eggplaton
-plant,Droll,Eggplaton
-plant,Lipsy,Eggplaton
-plant,DarkEye,Evilseed
-plant,RockSlime,Evilseed
-plant,MadMirror,Evilseed
-plant,KiteHawk,Evilseed
-plant,Gamanian,Evilseed
-plant,Eyeder,Evilseed
-plant,EyeBall,Evilseed
-plant,DuckKite,Evilseed
-plant,ButterFly,Evilseed
-plant,BigEye,Evilseed
-Eggplaton,zombie,Evilseed
-HerbMan,dragon,Facetree
-plant,NiteWhip,Facetree
-GhosTree,Snapper,Facetree
-plant,dragon,Fireweed
-plant,beast,Floraman
-TreeBoy,BeastNite,FooHero
-TreeBoy,HammerMan,FooHero
-TreeBoy,SlimeNite,FooHero
-Stubsuck,zombie,Ghostree
-Stubsuck,Puppetor,Ghostree
-plant,devil,Gulpple
-DanceVegi,devil,Herbman
-plant,FunkyBird,Herbman
-plant,Any Slime,Madplant
-EvilSeed,EvilSeed,Maneater
-EvilSeed,Slurperon,Maneater
-plant,Anemon,Oniono
-plant,Gophecada,Oniono
-plant,boss,Rosevine
-plant,water,Slurperon
-ManEater,ManEater,Snapper
-AmberWeed,beast,Stubsuck
-GhosTree,GhosTree,Stubsuck
-plant,zombie,Toadstool
-FooHero,EvilWand,Treeboy
-plant,Pixy,Treeboy
-Warubou,Watabou (DWM1),Watabou
-plant,bird,Wingtree
-Any Slime,GiantMoth,Babble
-Any Slime,Poisongon,Babble
-Any Slime,zombie,Babble
-Any Slime,material,Boxslime
-Any Slime,dragon,Drakslime
-Any Slime,Almiraj,Fangslime
-Any Slime,DarkHorn,Fangslime
-Any Slime,GulpBeast,Fangslime
-Any Slime,KingLeo,Fangslime
-Any Slime,MadCat,Fangslime
-Any Slime,Trumpeter,Fangslime
-KingSlime,GoldGolem,Goldslime
-WonderEgg,MetalKing,Goldslime
-MetalKing,MetalKing,Goldslime
-SpotKing,GoldGolem,Goldslime
-MetalKing,GoldGolem,Goldslime
-GoldSlime,DarkMate,Granslime
-GoldSlime,DeathMore1,Granslime
-GoldSlime,GoldSlime,Granslime
-WonderEgg,GoldSlime,Granslime
-MimeSlime,StubBird,Haloslime
-MimeSlime,Pixy,Haloslime
-MimeSlime,zombie,Haloslime
-WonderEgg,bird,Haloslime
-Slime,CopyCat,Haloslime
-Any Slime,CopyCat,Healer
-Any Slime,FunkyBird,Healer
-Any Slime,MadPlant,Healer
-Any Slime,PillowRat,Healer
-SpotKing,Gigantes,Kingslime
-SpotKing,ZapBird,Kingslime
-SpotKing,WhiteKing,Kingslime
-SpotKing,WhipBird,Kingslime
-SpotKing,Unicorn,Kingslime
-Slime,Slime,Kingslime
-SpotKing,MadCondor,Kingslime
-SpotKing,KingLeo,Kingslime
-SpotKing,GreatDrak,Kingslime
-SpotKing,Divinegon,Kingslime
-SpotKing,DeadNoble,Kingslime
-SpotKing,Centasaur,Kingslime
-SpotKing,BossTroll,Kingslime
-SpotKing,BattleRex,Kingslime
-Any Slime,boss,Kingslime
-Metaly,Metaly,Metabble
-Metaly,WonderEgg,Metabble
-Metabble,Metabble,Metalking
-SpotKing,MetalDrak,Metalking
-WonderEgg,Metabble,Metalking
-KingSlime,MetalDrak,Metalking
-Any Slime,MetalDrak,Metaly
-WonderEgg,devil,Mimeslime
-Healer,1EyeClown,Mimeslime
-Healer,EvilWand,Mimeslime
-Healer,TreeBoy,Mimeslime
-Any Slime,water,Pearlgel
-Any Slime,BombCrag,Rockslime
-Any Slime,StoneMan,Rockslime
-Any Slime,Golem,Rockslime
-Any Slime,DeadNite,Rockslime
-Any Slime,Skullroo,Slabbit
-Metabble,BattleRex,Slimeborg
-DrakSlime,Swordgon,Slimeborg
-SlimeNite,Spikerous,Slimeborg
-Metabble,SkyDragon,Slimeborg
-Any Slime,Roboster,Slimeborg
-RockSlime,GreatDrak,Slimeborg
-Any Slime,devil,Slimenite
-Any Slime,bug,Snaily
-MetalKing,BattleRex,Spotking
-MetalKing,ZapBird,Spotking
-MetalKing,WhiteKing,Spotking
-MetalKing,WhipBird,Spotking
-MetalKing,Unicorn,Spotking
-SpotSlime,SpotSlime,Spotking
-MetalKing,MadCondor,Spotking
-MetalKing,KingLeo,Spotking
-KingSlime,GreatDrak,Spotking
-MetalKing,Gigantes,Spotking
-MetalKing,Divinegon,Spotking
-MetalKing,DeadNoble,Spotking
-MetalKing,Centasaur,Spotking
-MetalKing,BossTroll,Spotking
-Any Slime,beast,Spotslime
-Any Slime,plant,Treeslime
-TreeSlime,beast,Tropicgel
-WonderEgg,plant,Tropicgel
-Slime,Mommonja,Tropicgel
-Slime,PillowRat,Tropicgel
-Any Slime,bird,Wingslime
-Any Slime,BigRoost (DWM1),Wonderegg
-water,plant,Anemon
-Petiteel,material,Angleron
-Digong,GreatDrak,Aquadon
-Digong,Coatol,Aquadon
-Digong,Orligon,Aquadon
-water,bug,Aquarella
-CancerMan,ArcDemon,AxeShark
-CancerMan,BattleRex,AxeShark
-Clawster,devil,CancerMan
-Clawster,Clawster,CancerMan
-Gamanian,devil,Clawster
-Gamanian,ArmyCrab,Clawster
-RushFish,Gigantes,Digong
-RushFish,Golem,Digong
-RushFish,MadGoose,Digong
-RushFish,RogueWave,Digong
-RushFish,Spikerous,Digong
-Angleron,SkulRider,FishRider
-Angleron,Gremlin,FishRider
-Angleron,Pixy,FishRider
-Angleron,Demonite,FishRider
-Aquarella,bug,Gamanian
-Aquarella,DarkEye,Gamanian
-Aquarella,MedusaEye,Gamanian
-water,boss,Grakos
-CancerMan,EvilWand,HoodSquid
-CancerMan,WhaleMage,HoodSquid
-Octogon,boss,KingSquid
-Octogon,Octogon,KingSquid
-water,devil,Merman
-Merman,GulpBeast,MerTiger
-Merman,MadCat,MerTiger
-water,dragon,Moray
-Octoreach,Octoreach,Octogon
-water,material,Octokid
-Octogon,ChopClown,Octoraid
-Octogon,Lionex,Octoraid
-Octogon,GateGuard,Octoraid
-Octogon,EvilArmor,Octoraid
-Petiteel,beast,Octoreach
-water,Any Slime,Petiteel
-Grakos,Mudou,Poseidon
-water,BombCrag,Pumpoise
-water,CragDevil,Pumpoise
-water,DuckKite,Pumpoise
-water,MadGoose,Pumpoise
-water,MadPecker,Pumpoise
-water,Mommonja,Pumpoise
-water,SpikyBoy,Pumpoise
-water,zombie,PutreFish
-water,bird,RayGigas
-water,JewelBag,RogueWave
-Angleron,dragon,RushFish
-Angleron,Droll,RushFish
-Angleron,GulpBeast,RushFish
-RogueWave,devil,Scallopa
-RogueWave,Mimic,Scallopa
-Petiteel,devil,SeaHorse
-Petiteel,dragon,SeaHorse
-HoodSquid,Any Slime,Starfish
-KingSquid,Any Slime,Starfish
-Octogon,Any Slime,Starfish
-OctoReach,Any Slime,Starfish
-water,beast,WalrusMan
-HoodSquid,1EyeClown,WhaleMage
-HoodSquid,Reaper,WhaleMage
-HoodSquid,RushFish,WhaleMage
-DeadNite,FloraMan,Boneslave
-DeadNite,Gremlin,Boneslave
-DeadNite,HornBeet,Boneslave
-DeadNite,LandOwl,Boneslave
-DeadNite,MadGoose,Boneslave
-Mummy,RockSlime,Boneslave
-DeadNite,SlimeBorg,Boneslave
-BoneSlave,water,Captdead
-NiteWhip,Moray,Captdead
-zombie,bug,Darkcrab
-zombie,CancerMan,Darkcrab
-zombie,Clawster,Darkcrab
-zombie,Gamanian,Darkcrab
-zombie,devil,Deadnite
-BoneSlave,ArcDemon,Deadnoble
-MadSpirit,ArcDemon,Deadnoble
-CaptDead,CopyCat,Deadnoble
-DeadNite,CopyCat,Deadnoble
-Skullgon,CopyCat,Deadnoble
-DeadNite,DeadNite,Deadnoble
-MadSpirit,GateGuard,Deadnoble
-Skeletor,GateGuard,Deadnoble
-MadSpirit,Lionex,Deadnoble
-Mudron,Lionex,Deadnoble
-CaptDead,MetalDrak,Deadnoble
-MadSpirit,MetalDrak,Deadnoble
-CaptDead,Roboster,Deadnoble
-MadSpirit,Roboster,Deadnoble
-MadSpirit,Roboster2,Deadnoble
-NiteWhip,beast,Foxfire
-PutrePup,MistyWing,Foxfire
-Spooky,beast,Hork
-Hork,Hork,Inverzon
-WhiteKing,DracoLord1,Lazamanus
-BoneSlave,bird,Madspirit
-DeadNite,bird,Madspirit
-DeadNoble,bird,Madspirit
-Mudron,bird,Madspirit
-PomPomBom,bird,Madspirit
-Skeletor,bird,Madspirit
-Skullgon,bird,Madspirit
-zombie,dragon,Madspirit
-zombie,BoxSlime,Mudron
-zombie,DanceVegi,Mudron
-zombie,Droll,Mudron
-zombie,FangSlime,Mudron
-zombie,FunkyBird,Mudron
-zombie,GiantSlug,Mudron
-zombie,Lipsy,Mudron
-zombie,MadPlant,Mudron
-zombie,Tonguella,Mudron
-zombie,Yeti,Mudron
-zombie,plant,Mummy
-DeadNoble,Octoraid,Niterich
-Skeletor,Roboster2,Niterich
-Skeletor,Serpentia,Niterich
-DarkCrab,devil,Nitewhip
-MadSpirit,devil,Nitewhip
-zombie,MistyWing,Nitewhip
-FoxFire,beast,Pompombom
-Copycat,Droll,Pompombom
-Copycat,Gasgon,Pompombom
-zombie,beast,Putrepup
-Hork,devil,Reaper
-Spooky,devil,Reaper
-zombie,WeedBug,Reaper
-zombie,bird,Rotraven
-WhiteKing,devil,Servant
-Skeletor,Skeletor,Servant
-zombie,material,Shadow
-MadSpirit,dragon,Skeletor
-BoneSlave,BoneSlave,Skeletor
-CaptDead,EvilBeast,Skeletor
-CaptDead,Golem,Skeletor
-DeadNite,Grizzly,Skeletor
-Mummy,GulpBeast,Skeletor
-Hork,MadCat,Skeletor
-CaptDead,MadCondor,Skeletor
-Mudron,MadRaven,Skeletor
-CaptDead,Ogre,Skeletor
-CaptDead,StoneMan,Skeletor
-BoneSlave,dragon,Skullgon
-DeadNoble,dragon,Skullgon
-Skeletor,dragon,Skullgon
-Skullgon,dragon,Skullgon
-Skulpent,dragon,Skullgon
-WhiteKing,dragon,Skullgon
-zombie,Andreal,Skullgon
-zombie,BattleRex,Skullgon
-zombie,Divinegon,Skullgon
-zombie,GreatDrak,Skullgon
-zombie,Orochi,Skullgon
-zombie,Rayburn,Skullgon
-zombie,Swordgon,Skullgon
-zombie,water,Skulpent
-zombie,Any Slime,Spooky
-zombie,boss,Whiteking
-Niterich,Andreal,Whiteking
-Niterich,Blizzardy,Whiteking
-Skeletor,GoldGolem,Whiteking
-Niterich,Grakos,Whiteking
-Niterich,GreatDrak,Whiteking
-Niterich,KingLeo,Whiteking
-Skullgon,KingSlime,Whiteking
-BoneSlave,MetalKing,Whiteking
-DeadNoble,SpotKing,Whiteking
-Niterich,WhaleMage,Whiteking
-Niterich,WhipBird,Whiteking
-Niterich,ZapBird,Whiteking
-RotRaven,bird,Windmerge
-zombie,WindBeast,Windmerge
+offspring,base,mate,comment
+1eyeclown,demonite,any slime,
+1eyeclown,eyeball,any slime,
+1eyeclown,pixy,any slime,
+agdevil,evilbeast,any dragon,
+agdevil,gremlin,any dragon,
+agdevil,medusaeye,any dragon,
+agdevil,skulrider,any dragon,
+akubar,arcdemon,gateguard,
+akubar,grendal,grendal,
+almiraj,any beast,any dragon,
+amberweed,any plant,any material,
+andreal,any dragon,gulpple,
+andreal,battlerex,madcondor,
+andreal,gasgon,goategon,
+andreal,maddragon,trumpeter,
+andreal,skydragon,akubar,
+andreal,skydragon,arcdemon,
+andreal,skydragon,deadnoble,
+andreal,skydragon,funkybird,
+andreal,skydragon,goathorn,
+andreal,skydragon,golem,
+andreal,skydragon,lionex,
+andreal,skydragon,ogre,
+anemon,any water,any plant,
+angleron,petiteel,any material,
+antbear,saccer,any dragon,
+aquadon,digong,coatol,
+aquadon,digong,greatdrak,
+aquadon,digong,orligon,
+aquahawk,any bird,any water,
+aquarella,any water,any bug,
+arcdemon,agdevil,spotking,
+arcdemon,any devil,any boss,
+arcdemon,gateguard,any zombie,
+arcdemon,gigantes,andreal,
+arcdemon,gigantes,garudian,
+arcdemon,gigantes,greatdrak,
+arcdemon,gigantes,kingleo,
+arcdemon,gigantes,metaldrak,
+arcdemon,gigantes,metalking,
+arcdemon,gigantes,orochi,
+arcdemon,gigantes,trumpeter,
+arcdemon,gigantes,whipbird,
+arcdemon,gigantes,zapbird,
+arcdemon,grendal,kingslime,
+arcdemon,ogre,any dragon,
+armorpede,any bug,ironturt,
+armorpede,droll,any dragon,
+armorpede,giantworm,any material,
+armorpede,multieyes,rockslime,
+armorpede,multieyes,tortragon,
+armorpion,hornbeet,hornbeet,
+armorpion,warmantis,cancerman,
+armorpion,warmantis,octoraid,
+armorpion,warmantis,roguenite,
+armyant,giantslug,any slime,
+armycrab,any bug,cancerman,
+armycrab,any bug,darkcrab,
+arrowdog,any beast,putrepup,
+asurazoma,zoma,psychopiz,
+axeshark,cancerman,arcdemon,
+axeshark,cancerman,battlerex,
+azurile,rainhawk,any boss,
+azurile,shantak,goldgolem,
+babble,any slime,any zombie,
+babble,any slime,giantmoth,
+babble,any slime,poisongon,
+balzak,any material,any boss,
+balzak,iceman,any devil,
+balzak,lavaman,any devil,
+baramos,hargon,orochi,
+battlerex,any dragon,evilarmor,
+battlerex,any dragon,kingleo,
+battlerex,any dragon,lionex,
+battlerex,any dragon,madknight,
+battlerex,any dragon,ogre,
+beanman,any plant,fishrider,
+beanman,any plant,pillowrat,
+beanman,eggplaton,any devil,
+beastnite,any beast,evilarmor,
+beastnite,catmage,any devil,
+beastnite,madgopher,dumbira,
+beavern,any beast,any water,
+belzebub,madhornet,any zombie,
+belzebub,madhornet,gohopper,
+belzebub,multieyes,butterfly,
+belzebub,multieyes,pyuro,
+bigeye,any beast,drygon,
+bigeye,any beast,eyeball,
+blizzardy,any bird,deadnoble,
+blizzardy,any bird,goategon,
+blizzardy,any bird,iceman,
+blizzardy,any bird,metabble,
+blizzardy,any bird,metaly,
+blizzardy,any bird,servant,
+blizzardy,any bird,skeletor,
+blizzardy,any bird,skullgon,
+blizzardy,any bird,superten,
+blizzardy,any bird,trumpeter,
+blizzardy,any bird,whiteking,
+blizzardy,any bird,yeti,
+bombcrag,darkmate,any bug,
+bombcrag,roboster,any bug,
+bombcrag,spikyboy,spikyboy,
+boneslave,deadnite,floraman,
+boneslave,deadnite,gremlin,
+boneslave,deadnite,hornbeet,
+boneslave,deadnite,landowl,
+boneslave,deadnite,madgoose,
+boneslave,deadnite,slimeborg,
+boneslave,mummy,rockslime,
+bosstroll,centasaur,balzak,
+bosstroll,centasaur,greatdrak,
+bosstroll,centasaur,walrusman,
+bosstroll,goathorn,any beast,
+bosstroll,ogre,stoneman,
+boxslime,any slime,any material,
+brushead,any material,any water,
+brushead,puppetor,demonite,
+brushead,puppetor,pixy,
+bubblemon,any devil,any water,
+bullbird,any bird,any beast,
+butterfly,any bug,any bird,
+cactiball,any plant,any bug,
+cancerman,clawster,any devil,
+cancerman,clawster,clawster,
+captdead,boneslave,any water,
+captdead,nitewhip,moray,
+catapila,any bug,any dragon,
+catfly,any beast,any bird,
+catmage,catfly,1eyeclown,
+catmage,catfly,catmage,
+catmage,catfly,evilwand,
+catmage,catfly,mimeslime,
+catmage,catfly,reaper,
+catmage,catfly,sickler,
+catmage,catfly,treeboy,
+centasaur,arcdemon,any dragon,
+centasaur,bosstroll,any beast,
+centasaur,gateguard,any beast,
+centasaur,ogre,any beast,
+chamelgon,any dragon,voodoll,
+chopclown,1eyeclown,1eyeclown,
+chopclown,lionex,mimeslime,
+clawster,gamanian,any devil,
+clawster,gamanian,armycrab,
+cloudking,gismo,dracolord1,
+cloudking,gismo,kingslime,
+cloudking,gismo,kingsquid,
+cloudking,gismo,lampgenie,
+cloudking,gismo,skydragon,
+cloudking,gismo,spotking,
+cloudking,gismo,whalemage,
+cloudking,gismo,whiteking,
+coatol,battlerex,stoneman,
+coatol,gasgon,madknight,
+coatol,lizardman,copycat,
+coatol,pteranod,darkhorn,
+coatol,skydragon,whipbird,
+coatol,vampirus,whipbird,
+coatol,wingsnake,wingsnake,
+coilbird,any material,any bird,
+cragdevil,bigroost,any beast,
+cragdevil,emyu,any beast,
+cragdevil,madgoose,any beast,
+crestpent,any dragon,bigroost,
+curselamp,any material,wingtree,
+curselamp,roboster,any bird,
+curselamp,roboster2,,
+curselamp,roboster2,any bird,
+dancevegi,any plant,facer,
+dancevegi,madplant,any beast,
+darkcrab,any zombie,any bug,
+darkcrab,any zombie,cancerman,
+darkcrab,any zombie,clawster,
+darkcrab,any zombie,gamanian,
+darkdrium,deathmore3,asurazoma,
+darkdrium,deathmore3,granslime,
+darkdrium,deathmore3,watabou,
+darkeye,any devil,any plant,
+darkhorn,any beast,any boss,
+darkmate,goldgolem,metalking,
+deadnite,any zombie,any devil,
+deadnoble,boneslave,arcdemon,
+deadnoble,captdead,copycat,
+deadnoble,captdead,metaldrak,
+deadnoble,captdead,roboster,
+deadnoble,deadnite,copycat,
+deadnoble,deadnite,deadnite,
+deadnoble,madspirit,arcdemon,
+deadnoble,madspirit,gateguard,
+deadnoble,madspirit,lionex,
+deadnoble,madspirit,metaldrak,
+deadnoble,madspirit,roboster,
+deadnoble,madspirit,roboster2,
+deadnoble,mudron,lionex,
+deadnoble,skeletor,gateguard,
+deadnoble,skullgon,copycat,
+deathmore1,mirudraas1,azurile,
+deathmore1,mirudraas2,zoma,
+deathmore1,zoma,azurile,
+deathmore1,zoma,mirudraas1,
+deathmore1,zoma,mirudraas2,
+deathmore2,deathmore1,armorpion,
+deathmore2,deathmore1,titanis,
+deathmore3,deathmore1,armorpion,
+deathmore3,deathmore2,darkmate,
+deathmore3,deathmore2,mudou,
+deathmore3,deathmore2,poseidon,
+deathmore3,mirudraas2,zoma,
+deathmore4,deathmore2,mudou,
+deathmore5,deathmore2,poseidon,
+deathmore5,zoma,mirudraas1,
+deathmore6,zoma,mirudraas2,
+deathmore7,zoma,azurile,
+demonite,any devil,any bird,
+devipine,any plant,gulpple,
+digong,rushfish,gigantes,
+digong,rushfish,golem,
+digong,rushfish,madgoose,
+digong,rushfish,roguewave,
+digong,rushfish,spikerous,
+digster,any bug,any boss,
+digster,armycrab,clawster,
+divinegon,skydragon,orochi,
+divinegon,skydragon,serpentia,
+dracky,picky,any slime,
+dracolord1,servant,andreal,
+dracolord1,servant,greatdrak,
+dracolord2,dracolord1,divinegon,
+dracolord3,servant,greatdrak,
+dragon,dragonkid,dragonkid,
+dragonkid,any dragon,any slime,
+drakslime,any slime,any dragon,
+droll,any bug,spooky,
+droll,butterfly,butterfly,
+droll,eyeder,eyeder,
+droll,lipsy,angleron,
+droll,lipsy,any slime,
+droll,lipsy,aquarella,
+droll,lipsy,octokid,
+droll,taileater,taileater,
+drygon,any dragon,any water,
+duckkite,any bird,any bug,
+dumbira,noctoking,gigantes,
+dumbira,superten,beastnite,
+dumbira,superten,bubblemon,
+dumbira,superten,lizardman,
+dumbira,superten,mertiger,
+dumbira,superten,orc,
+dumbira,superten,sabreman,
+dumbira,superten,walrusman,
+durran,centasaur,goldgolem,
+durran,jamirus,serpentia,
+egdracil,rosevine,gigantes,
+eggplaton,any plant,aquarella,
+eggplaton,any plant,droll,
+eggplaton,any plant,lipsy,
+emyu,kitehawk,any beast,
+emyu,madcondor,madpecker,
+emyu,madpecker,bigeye,
+emyu,madpecker,darkeye,
+esterk,pizzaro,gorago,
+esterk,pizzaro,kingleo,
+evilarmor,any devil,armorpede,
+evilarmor,arcdemon,any material,
+evilarmor,gateguard,any material,
+evilarmor,ogre,any material,
+evilbeast,any devil,any material,
+evilpot,any material,snaily,
+evilpot,gismo,any devil,
+evilpot,mimic,scallopa,
+evilseed,any plant,bigeye,
+evilseed,any plant,butterfly,
+evilseed,any plant,darkeye,
+evilseed,any plant,duckkite,
+evilseed,any plant,eyeball,
+evilseed,any plant,eyeder,
+evilseed,any plant,gamanian,
+evilseed,any plant,kitehawk,
+evilseed,any plant,madmirror,
+evilseed,any plant,rockslime,
+evilseed,eggplaton,any zombie,
+evilwand,any material,any dragon,
+evilwell,bosstroll,iceman,
+evilwell,ogre,lavaman,
+exaucers,any material,dracky,
+eyeball,any devil,any bug,
+eyeder,any bug,amberweed,
+eyeder,any bug,gamanian,
+eyeder,any bug,octoreach,
+eyeder,catapila,any beast,
+facer,any material,any plant,
+facetree,any plant,nitewhip,
+facetree,ghostree,snapper,
+facetree,herbman,any dragon,
+fairydrak,any dragon,any bug,
+fairyrat,any beast,lizardfly,
+fangslime,any slime,almiraj,
+fangslime,any slime,darkhorn,
+fangslime,any slime,gulpbeast,
+fangslime,any slime,kingleo,
+fangslime,any slime,madcat,
+fangslime,any slime,trumpeter,
+fireweed,any plant,any dragon,
+fishrider,angleron,demonite,
+fishrider,angleron,gremlin,
+fishrider,angleron,pixy,
+fishrider,angleron,skulrider,
+florajay,any bird,any plant,
+floraman,any plant,any beast,
+foohero,treeboy,beastnite,
+foohero,treeboy,hammerman,
+foohero,treeboy,slimenite,
+foxfire,nitewhip,any beast,
+foxfire,putrepup,mistywing,
+funkybird,any bird,brushead,
+funkybird,any bird,dancevegi,
+funkybird,any bird,pyuro,
+funkybird,any bird,tropicgel,
+gamanian,aquarella,any bug,
+gamanian,aquarella,darkeye,
+gamanian,aquarella,medusaeye,
+garudian,blizzardy,lionex,
+garudian,funkybird,jamirus,
+garudian,phoenix,lionex,
+garudian,zapbird,lionex,
+gasgon,any dragon,any plant,
+gateguard,agdevil,slimeborg,
+gateguard,demonite,axeshark,
+gateguard,demonite,deadnoble,
+gateguard,demonite,demonite,
+gateguard,demonite,giantmoth,
+gateguard,demonite,madcondor,
+gateguard,demonite,mistywing,
+gateguard,demonite,rosevine,
+gateguard,demonite,skullgon,
+gateguard,demonite,whiteking,
+gateguard,gigantes,axeshark,
+gateguard,gigantes,coatol,
+gateguard,gigantes,deadnoble,
+gateguard,gigantes,giantmoth,
+gateguard,gigantes,madcondor,
+gateguard,gigantes,mistywing,
+gateguard,gigantes,rosevine,
+gateguard,gigantes,skullgon,
+gateguard,gigantes,whiteking,
+gateguard,grendal,swordgon,
+gateguard,ogre,any zombie,
+genosidoh,sidoh,titanis,
+ghostree,stubsuck,any zombie,
+ghostree,stubsuck,puppetor,
+giantmoth,any bug,raygigas,
+giantmoth,any bug,saccer,
+giantmoth,butterfly,any devil,
+giantslug,any bug,any slime,
+giantworm,any bug,any devil,
+gigadraco,andreal,bosstroll,
+gigadraco,battlerex,gigantes,
+gigadraco,greatdrak,gigantes,
+gigadraco,skydragon,gigantes,
+gigantes,any devil,bigeye,
+gigantes,evilbeast,any zombie,
+gigantes,medusaeye,any zombie,
+gigantes,skulrider,any zombie,
+gismo,goopi,anemon,
+gismo,goopi,evilseed,
+gismo,goopi,fireweed,
+gismo,goopi,mistywing,
+gismo,goopi,phoenix,
+gismo,madcandle,drakslime,
+gismo,madmirror,wyvern,
+goategon,any beast,drakslime,
+goategon,any beast,lizardman,
+goathorn,any devil,darkhorn,
+goathorn,arcdemon,any beast,
+goldgolem,iceman,lavaman,
+goldgolem,lavaman,bosstroll,
+goldslime,kingslime,goldgolem,
+goldslime,metalking,goldgolem,
+goldslime,metalking,metalking,
+goldslime,spotking,goldgolem,
+goldslime,wonderegg,metalking,
+golem,muddoll,muddoll,
+goopi,jewelbag,any material,
+gophecada,any bug,any beast,
+gorago,darkhorn,any boss,
+gorago,darkhorn,orochi,
+grakos,any water,any boss,
+granslime,goldslime,darkmate,
+granslime,goldslime,deathmore1,
+granslime,goldslime,goldslime,
+granslime,wonderegg,goldslime,
+greatdrak,any dragon,battlerex,
+greatdrak,any dragon,centasaur,
+greatdrak,any dragon,gigantes,
+greatdrak,any dragon,kingslime,
+greatdrak,any dragon,metalking,
+greatdrak,any dragon,spotking,
+greatdrak,any dragon,unicorn,
+greatdrak,any dragon,whipbird,
+greatdrak,any dragon,zapbird,
+greatdrak,dragon,dragon,(offspringmustbeatleast+5)
+greatdrak,dragonkid,dragonkid,(offspringmustbeatleast+5)
+gremlin,any devil,any beast,
+grendal,any devil,beastnite,
+grendal,any devil,maddragon,
+grendal,evilbeast,any beast,
+grendal,gremlin,any beast,
+grendal,medusaeye,any beast,
+grendal,skulrider,any beast,
+grizzly,any beast,any devil,
+grizzly,any beast,golem,
+grizzly,any beast,iceman,
+grizzly,any beast,lavaman,
+grizzly,any beast,metaldrak,
+grizzly,any beast,roboster,
+grizzly,any beast,stoneman,
+gulpbeast,bigeye,any dragon,
+gulpbeast,dumbira,any dragon,
+gulpbeast,dumbira,metaldrak,
+gulpbeast,goategon,golem,
+gulpbeast,goategon,iceman,
+gulpbeast,goategon,lavaman,
+gulpbeast,goategon,roboster,
+gulpbeast,goategon,stoneman,
+gulpbeast,grizzly,any devil,
+gulpbeast,grizzly,any dragon,
+gulpbeast,grizzly,skullgon,
+gulpbeast,ironturt,metaldrak,
+gulpbeast,tonguella,deadnoble,
+gulpbeast,tonguella,digster,
+gulpbeast,tonguella,skeletor,
+gulpbeast,tonguella,skullgon,
+gulpbeast,tonguella,whiteking,
+gulpbeast,trumpeter,any dragon,
+gulpbeast,trumpeter,digster,
+gulpbeast,trumpeter,golem,
+gulpbeast,trumpeter,iceman,
+gulpbeast,trumpeter,lavaman,
+gulpbeast,trumpeter,roboster,
+gulpbeast,trumpeter,stoneman,
+gulpbeast,unicorn,whiteking,
+gulpbeast,wildape,skeletor,
+gulpbeast,yeti,any dragon,
+gulpbeast,yeti,deadnoble,
+gulpple,any plant,any devil,
+haloslime,mimeslime,any zombie,
+haloslime,mimeslime,pixy,
+haloslime,mimeslime,stubbird,
+haloslime,slime,copycat,
+haloslime,wonderegg,any bird,
+hammerman,any beast,stubsuck,
+hargon,whiteking,metalking,
+healer,any slime,copycat,
+healer,any slime,funkybird,
+healer,any slime,madplant,
+healer,any slime,pillowrat,
+herbman,any plant,funkybird,
+herbman,dancevegi,any devil,
+hoodsquid,cancerman,evilwand,
+hoodsquid,cancerman,whalemage,
+hork,spooky,any beast,
+hornbeet,armorpede,any devil,
+hornbeet,stagbug,stagbug,
+hornbeet,warmantis,any devil,
+iceman,metaldrak,skullgon,
+iceman,metaldrak,whiteking,
+iceman,roboster,kingleo,
+iceman,roboster2,kingleo,
+inverzon,hork,hork,
+ironturt,any beast,tortragon,
+jamirus,akubar,rainhawk,
+jewelbag,any material,any slime,
+kingcobra,any dragon,babble,
+kingleo,trumpeter,balzak,
+kingleo,trumpeter,bosstroll,
+kingleo,trumpeter,goldgolem,
+kingleo,trumpeter,metaldrak,
+kingleo,trumpeter,trumpeter,
+kingslime,any slime,any boss,
+kingslime,slime,slime,(offspringmustbeatleast+5)
+kingslime,spotking,battlerex,
+kingslime,spotking,bosstroll,
+kingslime,spotking,centasaur,
+kingslime,spotking,deadnoble,
+kingslime,spotking,divinegon,
+kingslime,spotking,gigantes,
+kingslime,spotking,greatdrak,
+kingslime,spotking,kingleo,
+kingslime,spotking,madcondor,
+kingslime,spotking,unicorn,
+kingslime,spotking,whipbird,
+kingslime,spotking,whiteking,
+kingslime,spotking,zapbird,
+kingsquid,octogon,any boss,
+kingsquid,octogon,octogon,(offspringmustbeatleast+5)
+kitehawk,any bird,facer,
+kitehawk,duckkite,any material,
+lampgenie,centasaur,any boss,
+landowl,bullbird,any devil,
+landowl,bullbird,grizzly,
+landowl,garudian,any slime,
+lavaman,metaldrak,arcdemon,
+lavaman,metaldrak,bosstroll,
+lavaman,metaldrak,centasaur,
+lavaman,metaldrak,kingleo,
+lavaman,metaldrak,orochi,
+lavaman,metaldrak,zapbird,
+lazamanus,whiteking,dracolord1,
+lionex,any devil,lizardman,
+lionex,arcdemon,any zombie,
+lionex,arcdemon,garudian,
+lipsy,any bug,any zombie,
+lizardfly,any dragon,gohopper,
+lizardman,any dragon,any devil,
+lorddraco,dracolord2,orligon,
+madcandle,any material,any beast,
+madcat,any beast,dragon,
+madcat,catmage,goategon,
+madcat,catmage,unicorn,
+madcondor,any bird,coilbird,
+madcondor,kitehawk,bigroost,
+madcondor,landowl,any devil,
+maddragon,any dragon,gulpbeast,
+maddragon,gasgon,any beast,
+madgoose,any bird,droll,
+madgoose,cragdevil,duckkite,
+madgoose,cragdevil,madraven,
+madgoose,landowl,any zombie,
+madgoose,madcondor,any zombie,
+madgoose,phoenix,any zombie,
+madgoose,wyvern,any dragon,
+madgopher,any beast,sabreman,
+madhornet,any bug,fairyrat,
+madhornet,butterfly,pyuro,
+madhornet,droll,any zombie,
+madhornet,eyeder,any zombie,
+madhornet,pyuro,any zombie,
+madknight,any devil,roguenite,
+madmirror,any material,any devil,
+madpecker,any bird,any devil,
+madplant,any plant,any slime,
+madraven,any bird,any zombie,
+madspirit,any zombie,any dragon,
+madspirit,boneslave,any bird,
+madspirit,deadnite,any bird,
+madspirit,deadnoble,any bird,
+madspirit,mudron,any bird,
+madspirit,pompombom,any bird,
+madspirit,skeletor,any bird,
+madspirit,skullgon,any bird,
+maneater,evilseed,evilseed,
+maneater,evilseed,slurperon,
+medusaeye,1eyeclown,any zombie,
+medusaeye,any devil,any dragon,
+medusaeye,darkeye,octoreach,
+medusaeye,gremlin,aquarella,
+merman,any water,any devil,
+mertiger,merman,gulpbeast,
+mertiger,merman,madcat,
+metabble,metaly,metaly,
+metabble,metaly,wonderegg,
+metaldrak,any material,andreal,
+metaldrak,roboster,any dragon,
+metaldrak,roboster2,metaldrak,
+metaldrak,stoneman,greatdrak,
+metaldrak,stoneman,spikerous,
+metalking,kingslime,metaldrak,
+metalking,metabble,metabble,
+metalking,spotking,metaldrak,
+metalking,wonderegg,metabble,
+metaly,any slime,metaldrak,
+mimeslime,healer,1eyeclown,
+mimeslime,healer,evilwand,
+mimeslime,healer,treeboy,
+mimeslime,wonderegg,any devil,
+mimic,any material,boxslime,
+mimic,roboster,any zombie,
+mimic,roboster,rushfish,
+minidrak,any dragon,picky,
+minidrak`,any dragon,picky,
+mirudraas1,esterk,goldslime,
+mirudraas2,mirudraas1,orligon,
+mirudraas2,mirudraas1,spikerous,
+mirudraas3,mirudraas1,spikerous,
+mistywing,any bird,any material,
+mommonja,any beast,duckkite,
+moray,any water,any dragon,
+muddoll,goopi,cancerman,
+muddoll,goopi,goopi,
+mudou,baramos,darkhorn,
+mudou,baramos,gorago,
+mudron,any zombie,boxslime,
+mudron,any zombie,dancevegi,
+mudron,any zombie,droll,
+mudron,any zombie,fangslime,
+mudron,any zombie,funkybird,
+mudron,any zombie,giantslug,
+mudron,any zombie,lipsy,
+mudron,any zombie,madplant,
+mudron,any zombie,tonguella,
+mudron,any zombie,yeti,
+multieyes,catapila,butterfly,
+multieyes,catapila,catapila,
+multieyes,taileater,any devil,
+mummy,any zombie,any plant,
+niterich,deadnoble,octoraid,
+niterich,skeletor,roboster2,
+niterich,skeletor,serpentia,
+nitewhip,any zombie,mistywing,
+nitewhip,darkcrab,any devil,
+nitewhip,madspirit,any devil,
+noctoking,arrowdog,dracky,
+noctoking,arrowdog,shadow,
+octogon,octoreach,octoreach,(offspringmustbeatleast+5)
+octokid,any water,any material,
+octoraid,octogon,chopclown,
+octoraid,octogon,evilarmor,
+octoraid,octogon,gateguard,
+octoraid,octogon,lionex,
+octoreach,petiteel,any beast,
+ogre,agdevil,gulpbeast,
+ogre,any devil,hammerman,
+ogre,gateguard,any dragon,
+ogre,gigantes,digster,
+ogre,gigantes,mertiger,
+ogre,gigantes,roboster,
+ogre,gigantes,walrusman,
+ogre,grendal,unicorn,
+oniono,any plant,anemon,
+oniono,any plant,gophecada,
+orc,any devil,beanman,
+orgodemir,psychopiz,niterich,
+orgodemir1,psychopiz,niterich,
+orgodemir2,orgodemir,gigadraco,
+orgodemir2,orgodemir,lorddraco,
+orgodemir3,orgodemir,gigadraco,
+orligon,divinegon,gigadraco,
+orligon,divinegon,goldgolem,
+orochi,andreal,medusaeye,
+orochi,any dragon,any boss,
+orochi,greatdrak,medusaeye,
+pearlgel,any slime,any water,
+petiteel,any water,any slime,
+phoenix,any bird,arcdemon,
+phoenix,any bird,copycat,
+phoenix,any bird,drakslime,
+phoenix,any bird,gismo,
+phoenix,any bird,grizzly,
+phoenix,any bird,gulpbeast,
+phoenix,any bird,ironturt,
+phoenix,any bird,lavaman,
+picky,any bird,any slime,
+pillowrat,any beast,any plant,
+pixy,any devil,any slime,
+pizzaro,durran,divinegon,
+poisongon,any dragon,any zombie,
+pompombom,copycat,droll,
+pompombom,copycat,gasgon,
+pompombom,foxfire,any beast,
+poseidon,grakos,mudou,
+protomech,any material,evilarmor,
+protomech,roboster,any slime,
+protomech,roboster2,any slime,
+protomech,roguenite,any devil,
+psychopiz,pizzaro,esterk,
+pteranod,any dragon,any bird,
+pumpoise,any water,bombcrag,
+pumpoise,any water,cragdevil,
+pumpoise,any water,duckkite,
+pumpoise,any water,madgoose,
+pumpoise,any water,madpecker,
+pumpoise,any water,mommonja,
+pumpoise,any water,spikyboy,
+puppetor,any material,gremlin,
+putrefish,any water,any zombie,
+putrepup,any zombie,any beast,
+pyuro,any bug,any water,
+rainhawk,blizzardy,phoenix,
+rainhawk,blizzardy,vampirus,
+rayburn,any dragon,madcondor,
+rayburn,lizardman,facetree,
+rayburn,lizardman,gateguard,
+rayburn,lizardman,gigantes,
+rayburn,lizardman,goathorn,
+rayburn,lizardman,lionex,
+rayburn,lizardman,madcat,
+rayburn,lizardman,trumpeter,
+rayburn,lizardman,wingslime,
+raygigas,any water,any bird,
+reaper,any zombie,weedbug,
+reaper,hork,any devil,
+reaper,spooky,any devil,
+roboster,any material,grizzly,
+roboster,any material,gulpbeast,
+roboster,any material,kingleo,
+roboster,any material,skulrider,
+roboster,any material,trumpeter,
+roboster,sabreman,deadnoble,
+roboster,sabreman,evilarmor,
+roboster,sabreman,greatdrak,
+roboster,sabreman,grendal,
+roboster,sabreman,ogre,
+roboster,sabreman,skeletor,
+roboster,sabreman,slimeborg,
+roboster,sabreman,unicorn,
+roboster2,roboster,roboster,(offspringmustbeatleast+10)
+rockslime,any slime,bombcrag,
+rockslime,any slime,deadnite,
+rockslime,any slime,golem,
+rockslime,any slime,stoneman,
+roguenite,any material,any zombie,
+roguewave,any water,jewelbag,
+rosevine,any plant,any boss,
+rotraven,any zombie,any bird,
+rushfish,angleron,any dragon,
+rushfish,angleron,droll,
+rushfish,angleron,gulpbeast,
+sabreman,any material,giantworm,
+sabreman,evilwand,landowl,
+sabreman,golem,phoenix,
+sabreman,stoneman,funkybird,
+sabreman,voodoll,madgoose,
+saccer,any beast,any bug,
+scallopa,roguewave,any devil,
+scallopa,roguewave,mimic,
+seahorse,petiteel,any devil,
+seahorse,petiteel,any dragon,
+serpentia,greatdrak,lionex,
+serpentia,greatdrak,octoraid,
+serpentia,greatdrak,skeletor,
+servant,skeletor,skeletor,
+servant,whiteking,any devil,
+shadow,any zombie,any material,
+shantak,whipbird,greatdrak,
+shantak,whipbird,jamirus,
+sickler,any bug,1eyeclown,
+sickler,any bug,reaper,
+sickler,warmantis,any slime,
+sidoh,jamirus,rosevine,
+skeletor,boneslave,boneslave,
+skeletor,captdead,evilbeast,
+skeletor,captdead,golem,
+skeletor,captdead,madcondor,
+skeletor,captdead,ogre,
+skeletor,captdead,stoneman,
+skeletor,deadnite,grizzly,
+skeletor,hork,madcat,
+skeletor,madspirit,any dragon,
+skeletor,mudron,madraven,
+skeletor,mummy,gulpbeast,
+skularach,armorpion,whiteking,
+skullgon,any zombie,andreal,
+skullgon,any zombie,battlerex,
+skullgon,any zombie,divinegon,
+skullgon,any zombie,greatdrak,
+skullgon,any zombie,orochi,
+skullgon,any zombie,rayburn,
+skullgon,any zombie,swordgon,
+skullgon,boneslave,any dragon,
+skullgon,deadnoble,any dragon,
+skullgon,skeletor,any dragon,
+skullgon,skullgon,any dragon,
+skullgon,skulpent,any dragon,
+skullgon,whiteking,any dragon,
+skullroo,any beast,any zombie,
+skulpent,any zombie,any water,
+skulrider,any devil,any zombie,
+skydragon,any dragon,phoenix,
+slabbit,any slime,skullroo,
+slimeborg,any slime,roboster,
+slimeborg,drakslime,swordgon,
+slimeborg,metabble,battlerex,
+slimeborg,metabble,skydragon,
+slimeborg,rockslime,greatdrak,
+slimeborg,slimenite,spikerous,
+slimenite,any slime,any devil,
+slurperon,any plant,any water,
+snaily,any slime,any bug,
+snakebat,any dragon,catfly,
+snakebat,kingcobra,dracky,
+snapper,maneater,maneater,
+spikerous,any dragon,armycrab,
+spikerous,any dragon,digster,
+spikyboy,any material,any bug,
+spooky,any zombie,any slime,
+spotking,kingslime,greatdrak,
+spotking,metalking,battlerex,
+spotking,metalking,bosstroll,
+spotking,metalking,centasaur,
+spotking,metalking,deadnoble,
+spotking,metalking,divinegon,
+spotking,metalking,gigantes,
+spotking,metalking,kingleo,
+spotking,metalking,madcondor,
+spotking,metalking,unicorn,
+spotking,metalking,whipbird,
+spotking,metalking,whiteking,
+spotking,metalking,zapbird,
+spotking,spotslime,spotslime,(offspringmustbeatleast+5)
+spotslime,any slime,any beast,
+stagbug,any bug,any material,
+starfish,hoodsquid,any slime,
+starfish,kingsquid,any slime,
+starfish,octogon,any slime,
+starfish,octoreach,any slime,
+stoneman,any material,digster,
+stoneman,any material,hornbeet,
+stoneman,golem,golem,
+stubbird,any bird,rockslime,
+stubsuck,amberweed,any beast,
+stubsuck,ghostree,ghostree,
+superten,any beast,mudron,
+superten,dumbira,any slime,
+superten,gulpbeast,copycat,
+superten,gulpbeast,demonite,
+superten,gulpbeast,facetree,
+superten,gulpbeast,fangslime,
+superten,gulpbeast,funkybird,
+superten,gulpbeast,gremlin,
+superten,gulpbeast,jewelbag,
+superten,gulpbeast,lipsy,
+superten,gulpbeast,maddragon,
+superten,gulpbeast,madplant,
+superten,gulpbeast,mimic,
+superten,tonguella,treeslime,
+swordgon,any dragon,any material,
+taileater,any bug,floraman,
+taileater,weedbug,anemon,
+taileater,weedbug,any plant,
+titanis,durran,darkhorn,
+toadstool,any plant,any zombie,
+tonguella,any beast,any slime,
+tortragon,any dragon,any beast,
+treeboy,any plant,pixy,
+treeboy,foohero,evilwand,
+treeslime,any slime,any plant,
+tropicgel,slime,mommonja,
+tropicgel,slime,pillowrat,
+tropicgel,treeslime,any beast,
+tropicgel,wonderegg,any plant,
+trumpeter,grizzly,madcondor,
+trumpeter,gulpbeast,balzak,
+trumpeter,gulpbeast,golem,
+trumpeter,gulpbeast,iceman,
+trumpeter,gulpbeast,lavaman,
+trumpeter,gulpbeast,metaldrak,
+trumpeter,gulpbeast,roboster,
+trumpeter,gulpbeast,stoneman,
+trumpeter,gulpbeast,whipbird,
+trumpeter,superten,any dragon,
+trumpeter,tonguella,landowl,
+trumpeter,wildape,wildape,
+trumpeter,yeti,zapbird,
+unicorn,any beast,fangslime,
+unicorn,goategon,any slime,
+unicorn,grizzly,any slime,
+unicorn,gulpbeast,any slime,
+unicorn,tonguella,any slime,
+unicorn,trumpeter,any slime,
+unicorn,wildape,any slime,
+unicorn,yeti,any slime,
+vampirus,any dragon,madgoose,
+vampirus,pteranod,pteranod,
+voodoll,any material,lipsy,
+voodoll,golem,drakslime,
+voodoll,puppetor,any devil,
+voodoll,stoneman,rockslime,
+voodoll,stoneman,slimenite,
+voodoll,stoneman,snaily,
+walrusman,any water,any beast,
+warmantis,sickler,any devil,
+watabou,warubou,watabou,(watabou from dwm1)
+weedbug,any bug,any plant,
+whalemage,hoodsquid,1eyeclown,
+whalemage,hoodsquid,reaper,
+whalemage,hoodsquid,rushfish,
+whipbird,any bird,rayburn,
+whipbird,any bird,snakebat,
+whipbird,blizzardy,metaldrak,
+whipbird,landowl,rockslime,
+whipbird,madcondor,digster,
+whipbird,madgoose,slimeborg,
+whipbird,zapbird,golem,
+whipbird,zapbird,merman,
+whipbird,zapbird,stoneman,
+whiteking,any zombie,any boss,
+whiteking,boneslave,metalking,
+whiteking,deadnoble,spotking,
+whiteking,niterich,andreal,
+whiteking,niterich,blizzardy,
+whiteking,niterich,grakos,
+whiteking,niterich,greatdrak,
+whiteking,niterich,kingleo,
+whiteking,niterich,whalemage,
+whiteking,niterich,whipbird,
+whiteking,niterich,zapbird,
+whiteking,skeletor,goldgolem,
+whiteking,skullgon,kingslime,
+wildape,almiraj,any dragon,
+wildape,any beast,madpecker,
+windbeast,any beast,any material,
+windbeast,catfly,any bird,
+windmerge,any zombie,windbeast,
+windmerge,rotraven,any bird,
+wingslime,any slime,any bird,
+wingsnake,crestpent,crestpent,
+wingtree,any plant,any bird,
+wonderegg,any slime,bigroost,(dwm1)(wondereggcanonlybeobtainedbyusingalinkcable)
+wyvern,any bird,any dragon,
+yeti,any beast,orc,
+yeti,dumbira,blizzardy,
+yeti,goategon,gasgon,
+yeti,ironturt,pteranod,
+yeti,madcat,battlerex,
+yeti,madcat,maddragon,
+yeti,madcat,skydragon,
+yeti,wildape,swordgon,
+zapbird,any bird,any boss,
+zapbird,madcondor,gismo,
+zapbird,phoenix,gismo,
+zapbird,whipbird,gismo,
+zoma,dracolord1,sidoh,
+zoma,dracolord2,sidoh,
