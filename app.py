@@ -5,6 +5,7 @@ from src.util.utils import *
 from src.api.get_monsters import *
 from src.api.get_families import *
 from src.api.get_monster_stats import *
+from src.api.get_breeding_pairs import *
 
 from src.views.serve_content import *
 from src.views.breed_info import *
@@ -20,6 +21,7 @@ app.teardown_request(teardown_request)
 app.register_blueprint(get_families_bp)
 app.register_blueprint(get_monsters_bp)
 app.register_blueprint(get_monster_stats_bp)
+app.register_blueprint(get_breeding_pairs_bp)
 
 # Register Serve Content Blueprints
 app.register_blueprint(serve_content)
