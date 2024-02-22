@@ -1,6 +1,6 @@
 from flask import jsonify, Blueprint
 
-get_breeding_pairs_bp = Blueprint('breeding_pairs',__name__)
+get_breeding_usage_bp = Blueprint('breeding_usage',__name__)
 
 import os
 
@@ -19,14 +19,18 @@ with open(csv_file_path, 'r') as file:
         data = line.strip().split(',')
         breeding_info.append(dict(zip(header, data)))
 
-def get_breeding_pairs(monster):
-    pairs = []
-    for entry in breeding_info:
-        if entry['offspring'].lower() == monster.lower():# or entry['mate'].lower() == monster.lower():
-            pairs.append({'base': entry['base'], 'mate': entry['mate'], 'offspring': entry['offspring']})
-    return pairs
 
-@get_breeding_pairs_bp.route('/api/breeding/pairs/<monster>', methods=['GET'])
-def breeding_pairs(monster):
-    pairs = get_breeding_pairs(monster)
-    return jsonify({'breeding_pairs': pairs})
+def get_usage_list(monster):
+    used_in = []
+    for entry in breeding_info:
+        if entry['base'].lower() == monster.lower() or entry['mate'].lower() == monster.lower():
+            used_in.append({'base': entry['base'], 'mate': entry['mate'], 'offspring': entry['offspring']})
+    return used_in
+
+
+@get_breeding_usage_bp.route('/api/breeding/usage/<monster>', methods=['GET'])
+def usage_list(monster):
+    used_in = get_usage_list(monster)
+    return jsonify({'used_in': used_in})
+
+
