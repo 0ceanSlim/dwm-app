@@ -544,10 +544,6 @@ video {
   position: static;
 }
 
-.col-span-1 {
-  grid-column: span 1 / span 1;
-}
-
 .float-left {
   float: left;
 }
@@ -621,21 +617,12 @@ video {
   display: grid;
 }
 
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 .w-full {
   width: 100%;
 }
 
 .border-collapse {
   border-collapse: collapse;
-}
-
-.cursor-pointer {
-  cursor: pointer;
 }
 
 .list-disc {
@@ -646,20 +633,12 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.place-content-center {
-  place-content: center;
+.content-center {
+  align-content: center;
 }
 
 .items-center {
@@ -668,10 +647,6 @@ video {
 
 .justify-center {
   justify-content: center;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .gap-x-2 {
@@ -747,11 +722,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -783,6 +753,11 @@ video {
   color: rgb(147 197 253 / var(--tw-text-opacity));
 }
 
+.text-purple-300 {
+  --tw-text-opacity: 1;
+  color: rgb(216 180 254 / var(--tw-text-opacity));
+}
+
 .text-purple-400 {
   --tw-text-opacity: 1;
   color: rgb(192 132 252 / var(--tw-text-opacity));
@@ -808,44 +783,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-purple-300 {
-  --tw-text-opacity: 1;
-  color: rgb(216 180 254 / var(--tw-text-opacity));
-}
-
-.marker\:text-sky-400 *::marker {
-  color: rgb(56 189 248 );
-}
-
-.marker\:text-purple-500 *::marker {
-  color: rgb(168 85 247 );
-}
-
-.marker\:text-slate-500 *::marker {
-  color: rgb(100 116 139 );
-}
-
-.marker\:text-slate-400 *::marker {
-  color: rgb(148 163 184 );
-}
-
 .marker\:text-slate-300 *::marker {
   color: rgb(203 213 225 );
 }
 
-.marker\:text-sky-400::marker {
-  color: rgb(56 189 248 );
-}
-
-.marker\:text-purple-500::marker {
-  color: rgb(168 85 247 );
-}
-
-.marker\:text-slate-500::marker {
-  color: rgb(100 116 139 );
-}
-
-.marker\:text-slate-400::marker {
+.marker\:text-slate-400 *::marker {
   color: rgb(148 163 184 );
 }
 
@@ -853,19 +795,13 @@ video {
   color: rgb(203 213 225 );
 }
 
-.hover\:text-green-700:hover {
-  --tw-text-opacity: 1;
-  color: rgb(21 128 61 / var(--tw-text-opacity));
+.marker\:text-slate-400::marker {
+  color: rgb(148 163 184 );
 }
 
 .hover\:text-purple-200:hover {
   --tw-text-opacity: 1;
   color: rgb(233 213 255 / var(--tw-text-opacity));
-}
-
-.hover\:text-red-700:hover {
-  --tw-text-opacity: 1;
-  color: rgb(185 28 28 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
