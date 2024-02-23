@@ -25,5 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
         updateMonsterFamily();
         updateMonsterLocation();
         updateMonsterSkills();
+        updateBreedingPairs();
     });
 });
