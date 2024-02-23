@@ -9,7 +9,7 @@ from src.api.get_breeding_pairs import *
 from src.api.get_breeding_usage import *
 
 from src.views.serve_content import *
-from src.views.breed_info import *
+
 from src.views.skills import *
 
 app = Flask(__name__)
@@ -29,7 +29,6 @@ app.register_blueprint(get_breeding_usage_bp)
 app.register_blueprint(serve_content)
 
 # Register Other Views Blurprints (HTML Render Templates)
-app.register_blueprint(breed_info_bp)
 app.register_blueprint(skills_bp)
 
 @app.route("/")
