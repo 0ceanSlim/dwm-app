@@ -19,10 +19,11 @@ function updateBreedingPairs() {
 
             if (data.breeding_pairs.length > 0) {
                 var pairsList = document.createElement("ul");
-                pairsList.classList.add('list-disc', 'ml-4');
-
+                pairsList.classList.add('m-2','p-2','list-disc', 'marker:text-slate-300');
+                
                 data.breeding_pairs.forEach(pair => {
                     var listItem = document.createElement("li");
+                    
 
                     // Style "base" text
                     var baseText = document.createElement("span");
@@ -38,7 +39,7 @@ function updateBreedingPairs() {
                     listItem.appendChild(baseText);
                     listItem.appendChild(document.createTextNode(" + "));
                     listItem.appendChild(mateText);
-
+                    
                     pairsList.appendChild(listItem);
                 });
 
