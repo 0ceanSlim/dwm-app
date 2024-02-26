@@ -28,7 +28,7 @@ function renderOffspringList(usageData) {
 
   // Create and append HTML for each unique offspring
   uniqueOffspringSet.forEach(offspring => {
-      var offspringHTML = `<li class='font-bold marker:text-slate-400 text-purple-300'>
+      var offspringHTML = `<li class='font-bold text-left marker:text-slate-400 text-purple-300'>
                           ${offspring}   
                           </li>`;
       offspringContainer.innerHTML += offspringHTML;

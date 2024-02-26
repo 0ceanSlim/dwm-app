@@ -11,7 +11,7 @@ function updateBreedingPairs() {
             breedingPairsContainer.innerHTML = `
             <div class='text-center '>
             <h3 class='text-xl font-bold mb-0.5'>Breeding Pairs:</h3>
-                <div class='text-xs mb-2 flex justify-center'>
+                <div class='text-xs mb-2 flex justify-center text-left'>
                     (<p class='text-red-300'>base</p> &nbsp;+&nbsp; <p class='text-blue-300'>mate</p>)
                 </div>
             </div>
@@ -19,7 +19,7 @@ function updateBreedingPairs() {
 
             if (data.breeding_pairs.length > 0) {
                 var pairsList = document.createElement("ul");
-                pairsList.classList.add('m-2','p-2','list-disc', 'marker:text-slate-300');
+                pairsList.classList.add('m-2','p-2','list-disc', 'marker:text-slate-300','text-left');
                 
                 data.breeding_pairs.forEach(pair => {
                     var listItem = document.createElement("li");
