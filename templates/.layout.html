@@ -12,24 +12,7 @@
   >
     {% block body %} {% endblock %}
   </body>
-  <div class="mx-auto footer max-w-lg">
-    <h2 class="m-2 text-xl font-bold">About The App</h2>
-    <p class="text-md">
-      Dragon Warrior Monsters 2 App, an open-source project. You can contribute
-      to the development and improvement of this app on our Git repository. Feel
-      free to explore the code, report issues, and submit pull requests.
-    </p>
-    <p class="mt-4 leading-7"></p>
-    <div class="mt-4 text-md">
-      <a
-        href="https://git.happytavern.co/oceanslim/dwm-app"
-        target="_blank"
-        class="text-purple-400 hover:text-purple-200 hover:underline"
-      >
-        View the git repository
-      </a>
-    </div>
-  </div>
+
   {% for file in js_files %}
   <script src="{{ url_for('static', filename='js/' + file) }}"></script>
   {% endfor %}
