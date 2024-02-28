@@ -1,17 +1,14 @@
 from flask import Flask, render_template
 
-from src.util.utils import *
+from api.get_monsters import *
+from api.get_families import *
+from api.get_monster_stats import *
+from api.get_breeding_pairs import *
+from api.get_breeding_usage import *
+from api.get_skills_data import *
 
-from src.api.get_monsters import *
-from src.api.get_families import *
-from src.api.get_monster_stats import *
-from src.api.get_breeding_pairs import *
-from src.api.get_breeding_usage import *
-from src.api.get_skills_data import *
-
-from src.util.serve_media import *
-
-#from src.views.skills import *
+from utils.utils import *
+from utils.serve_media import *
 
 app = Flask(__name__)
 
