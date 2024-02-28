@@ -1,5 +1,5 @@
 from flask import jsonify, Blueprint
-from utils.utils import breeding_pair_data
+from utils.data_sources import breeding_pair_data
 
 get_breeding_pairs_bp = Blueprint('breeding_pairs',__name__)
 

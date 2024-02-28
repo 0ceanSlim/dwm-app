@@ -9,6 +9,7 @@ from api.get_skills_data import *
 
 from utils.utils import *
 from utils.serve_media import *
+from utils.data_sources import *
 
 app = Flask(__name__)
 
@@ -37,7 +38,7 @@ def show_app():
 
 @app.route('/skills')
 def skills():
-    csv_data = read_csv('static/data/skills_data.csv')
+    csv_data = read_skills_csv('static/data/skills_data.csv')
     return render_template('skills.html', csv_data=csv_data)
 
 if __name__ == "__main__":
