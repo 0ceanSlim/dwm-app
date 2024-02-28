@@ -16,6 +16,7 @@ app = Flask(__name__)
 # Utils
 app.before_request(before_request)
 app.teardown_request(teardown_request)
+app.register_blueprint(serve_media)
 
 # Register API Blueprints
 app.register_blueprint(get_families_bp)
@@ -25,11 +26,6 @@ app.register_blueprint(get_breeding_pairs_bp)
 app.register_blueprint(get_breeding_usage_bp)
 app.register_blueprint(get_skills_data_bp)
 
-# Register Serve Content Blueprints
-app.register_blueprint(serve_media)
-
-# Register Other Views Blurprints (HTML Render Templates)
-#app.register_blueprint(skills_bp)
 
 @app.route("/")
 def show_app():
