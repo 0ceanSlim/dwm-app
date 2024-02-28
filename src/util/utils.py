@@ -3,7 +3,9 @@ from flask import current_app as app
 
 import sqlite3, csv, os
 
-DATABASE = "src/data/database.db"
+DATABASE = "static/data/database.db"
+
+breeding_pair_data = os.path.join('static', 'data', 'breeding_pair_data.csv')
 
 def connect_db():
     return sqlite3.connect(DATABASE)

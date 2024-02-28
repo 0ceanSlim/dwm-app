@@ -8,5 +8,5 @@ serve_monster_sprite_bp = Blueprint('monster_sprite', __name__)
 #Serve Monster Sprites
 @skills_bp.route('/skills')
 def skills():
-    csv_data = read_csv('src/data/skills_data.csv')
+    csv_data = read_csv('static/data/skills_data.csv')
     return render_template('skills.html', csv_data=csv_data)

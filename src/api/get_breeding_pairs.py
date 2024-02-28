@@ -1,18 +1,11 @@
 from flask import jsonify, Blueprint
+from ..util.utils import breeding_pair_data
 
 get_breeding_pairs_bp = Blueprint('breeding_pairs',__name__)
 
-import os
-
-# Get the current script directory
-script_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Construct the path to the CSV file in the data directory
-csv_file_path = os.path.join(script_dir, '..', 'data', 'updated_breeding_pairs.csv')
-
 # Read the CSV file and store breeding information
 breeding_info = []
-with open(csv_file_path, 'r') as file:
+with open(breeding_pair_data, 'r') as file:
     lines = file.readlines()
     header = lines[0].strip().split(',')
     for line in lines[1:]:
