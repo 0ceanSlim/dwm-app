@@ -9,7 +9,7 @@ from src.api.get_breeding_pairs import *
 from src.api.get_breeding_usage import *
 from src.api.get_skills_data import *
 
-from src.views.serve_content import *
+from src.util.serve_media import *
 
 from src.views.skills import *
 
@@ -28,7 +28,7 @@ app.register_blueprint(get_breeding_usage_bp)
 app.register_blueprint(get_skills_data_bp)
 
 # Register Serve Content Blueprints
-app.register_blueprint(serve_content)
+app.register_blueprint(serve_media)
 
 # Register Other Views Blurprints (HTML Render Templates)
 app.register_blueprint(skills_bp)
